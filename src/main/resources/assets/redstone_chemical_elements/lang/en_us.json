@@ -163,7 +163,6 @@
   "item.redstone_chemical_elements.neon.crushed_raw_neon": "Crushed Raw Neon",
   "item.redstone_chemical_elements.neon.raw_neon": "Raw Neon",
   "item.redstone_chemical_elements.neon.neon_cylinder": "Neon Cylinder",
-  
   "block.redstone_chemical_elements.neon.neon_block": "Neon Block",
   "block.redstone_chemical_elements.neon.raw_neon_block": "Raw Neon Block",
   "block.redstone_chemical_elements.neon.neon_ore": "Neon Ore",
@@ -1048,7 +1047,6 @@
   "item.redstone_chemical_elements.terbium.terbium_gear": "Terbium Gear",
   "item.redstone_chemical_elements.terbium.crushed_raw_terbium": "Crushed Raw Terbium",
   "item.redstone_chemical_elements.terbium.raw_terbium": "Raw Terbium",
-  
   "block.redstone_chemical_elements.terbium.terbium_block": "Terbium Block",
   "block.redstone_chemical_elements.terbium.raw_terbium_block": "Raw Terbium Block",
   "block.redstone_chemical_elements.terbium.terbium_ore": "Terbium Ore",

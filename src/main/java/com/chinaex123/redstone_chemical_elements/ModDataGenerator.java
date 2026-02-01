@@ -1,7 +1,6 @@
 package com.chinaex123.redstone_chemical_elements;
 
 import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockLootTablesProvider;
-import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockTagsProvider_OLD;
 import com.chinaex123.redstone_chemical_elements.dataGen.ModCommonTags;
 import com.chinaex123.redstone_chemical_elements.dataGen.ModRecipesProvider;
 import net.minecraft.core.HolderLookup;
@@ -11,7 +10,6 @@ import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
@@ -44,7 +42,7 @@ public class ModDataGenerator {
         // 注册战利品表生成器
         generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(
-                        ModBlockLootTablesProvider::new,  // 你的战利品表生成器
+                        ModBlockLootTablesProvider::new,  // 战利品表生成器
                         LootContextParamSets.BLOCK        // 方块战利品表
                 )), lookupProvider));
 

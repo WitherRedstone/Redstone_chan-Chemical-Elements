@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:polonium/polonium_ore",
+    "redstone_chemical_elements:polonium/deepslate_polonium_ore",
+    "redstone_chemical_elements:polonium/nether_polonium_ore",
+    "redstone_chemical_elements:polonium/end_polonium_ore"
+  ]
+}

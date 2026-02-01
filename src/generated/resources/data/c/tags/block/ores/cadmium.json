@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:cadmium/cadmium_ore",
+    "redstone_chemical_elements:cadmium/deepslate_cadmium_ore",
+    "redstone_chemical_elements:cadmium/nether_cadmium_ore",
+    "redstone_chemical_elements:cadmium/end_cadmium_ore"
+  ]
+}

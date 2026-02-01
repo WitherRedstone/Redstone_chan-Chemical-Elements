@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:nickel/nether_nickel_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "redstone_chemical_elements:nickel/nickel_ingot"
+  }
+}

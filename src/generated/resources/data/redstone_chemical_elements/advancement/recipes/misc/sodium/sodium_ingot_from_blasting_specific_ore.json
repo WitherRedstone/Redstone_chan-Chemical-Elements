@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sodium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:sodium/sodium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:sodium/sodium_ingot_from_blasting_specific_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sodium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:sodium/sodium_ingot_from_blasting_specific_ore"
+    ]
+  }
+}

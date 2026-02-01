@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_nitrogen": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/nitrogen"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:nitrogen/nitrogen_ingot_from_smelting_raw_nitrogen"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_nitrogen"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:nitrogen/nitrogen_ingot_from_smelting_raw_nitrogen"
+    ]
+  }
+}

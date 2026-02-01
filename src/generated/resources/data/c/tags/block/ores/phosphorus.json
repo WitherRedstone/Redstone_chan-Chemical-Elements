@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:phosphorus/phosphorus_ore",
+    "redstone_chemical_elements:phosphorus/deepslate_phosphorus_ore",
+    "redstone_chemical_elements:phosphorus/nether_phosphorus_ore",
+    "redstone_chemical_elements:phosphorus/end_phosphorus_ore"
+  ]
+}

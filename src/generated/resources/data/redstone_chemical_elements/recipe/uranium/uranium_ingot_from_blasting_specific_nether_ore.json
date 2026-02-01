@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:uranium/nether_uranium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "redstone_chemical_elements:uranium/uranium_ingot"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:thorium/thorium_ore",
+    "redstone_chemical_elements:thorium/deepslate_thorium_ore",
+    "redstone_chemical_elements:thorium/nether_thorium_ore",
+    "redstone_chemical_elements:thorium/end_thorium_ore"
+  ]
+}

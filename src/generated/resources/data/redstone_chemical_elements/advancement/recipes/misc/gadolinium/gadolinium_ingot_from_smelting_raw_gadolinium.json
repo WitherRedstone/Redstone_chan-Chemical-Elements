@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_gadolinium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/gadolinium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:gadolinium/gadolinium_ingot_from_smelting_raw_gadolinium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_gadolinium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:gadolinium/gadolinium_ingot_from_smelting_raw_gadolinium"
+    ]
+  }
+}

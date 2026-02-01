@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_protactinium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/protactinium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:protactinium/raw_protactinium_block_from_items"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_protactinium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:protactinium/raw_protactinium_block_from_items"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_manganese_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:manganese/deepslate_manganese_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:manganese/manganese_ingot_from_smelting_specific_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_manganese_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:manganese/manganese_ingot_from_smelting_specific_deepslate_ore"
+    ]
+  }
+}

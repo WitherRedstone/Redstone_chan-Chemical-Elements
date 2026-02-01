@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:strontium/strontium_ore",
+    "redstone_chemical_elements:strontium/deepslate_strontium_ore",
+    "redstone_chemical_elements:strontium/nether_strontium_ore",
+    "redstone_chemical_elements:strontium/end_strontium_ore"
+  ]
+}

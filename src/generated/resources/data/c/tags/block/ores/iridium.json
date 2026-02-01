@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:iridium/iridium_ore",
+    "redstone_chemical_elements:iridium/deepslate_iridium_ore",
+    "redstone_chemical_elements:iridium/nether_iridium_ore",
+    "redstone_chemical_elements:iridium/end_iridium_ore"
+  ]
+}

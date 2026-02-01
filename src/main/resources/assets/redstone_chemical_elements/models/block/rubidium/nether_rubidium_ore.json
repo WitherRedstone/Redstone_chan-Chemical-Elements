@@ -1,0 +1,6 @@
+{ 
+  "parent": "block/cube_all", 
+  "textures": { 
+    "all": "redstone_chemical_elements:block/rubidium/nether_rubidium_ore" 
+  } 
+} 

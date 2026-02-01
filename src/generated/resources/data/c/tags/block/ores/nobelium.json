@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:nobelium/nobelium_ore",
+    "redstone_chemical_elements:nobelium/deepslate_nobelium_ore",
+    "redstone_chemical_elements:nobelium/nether_nobelium_ore",
+    "redstone_chemical_elements:nobelium/end_nobelium_ore"
+  ]
+}

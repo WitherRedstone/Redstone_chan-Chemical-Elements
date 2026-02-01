@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "redstone_chemical_elements:scandium/raw_scandium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "redstone_chemical_elements:scandium/raw_scandium"
+  }
+}

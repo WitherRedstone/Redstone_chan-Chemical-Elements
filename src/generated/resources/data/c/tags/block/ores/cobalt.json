@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:cobalt/cobalt_ore",
+    "redstone_chemical_elements:cobalt/deepslate_cobalt_ore",
+    "redstone_chemical_elements:cobalt/nether_cobalt_ore",
+    "redstone_chemical_elements:cobalt/end_cobalt_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:barium/barium_ore",
+    "redstone_chemical_elements:barium/deepslate_barium_ore",
+    "redstone_chemical_elements:barium/nether_barium_ore",
+    "redstone_chemical_elements:barium/end_barium_ore"
+  ]
+}

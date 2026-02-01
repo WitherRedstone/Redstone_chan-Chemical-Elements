@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:beryllium/beryllium_ore",
+    "redstone_chemical_elements:beryllium/deepslate_beryllium_ore",
+    "redstone_chemical_elements:beryllium/nether_beryllium_ore",
+    "redstone_chemical_elements:beryllium/end_beryllium_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:krypton/krypton_ore",
+    "redstone_chemical_elements:krypton/deepslate_krypton_ore",
+    "redstone_chemical_elements:krypton/nether_krypton_ore",
+    "redstone_chemical_elements:krypton/end_krypton_ore"
+  ]
+}

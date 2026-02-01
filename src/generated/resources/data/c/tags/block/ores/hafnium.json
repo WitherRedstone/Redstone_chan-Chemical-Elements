@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:hafnium/hafnium_ore",
+    "redstone_chemical_elements:hafnium/deepslate_hafnium_ore",
+    "redstone_chemical_elements:hafnium/nether_hafnium_ore",
+    "redstone_chemical_elements:hafnium/end_hafnium_ore"
+  ]
+}

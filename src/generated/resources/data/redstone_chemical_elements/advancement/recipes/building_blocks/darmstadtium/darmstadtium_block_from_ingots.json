@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_darmstadtium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/darmstadtium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:darmstadtium/darmstadtium_block_from_ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_darmstadtium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:darmstadtium/darmstadtium_block_from_ingots"
+    ]
+  }
+}

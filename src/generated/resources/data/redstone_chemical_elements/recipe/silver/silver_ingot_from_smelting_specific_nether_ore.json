@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:silver/nether_silver_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "redstone_chemical_elements:silver/silver_ingot"
+  }
+}

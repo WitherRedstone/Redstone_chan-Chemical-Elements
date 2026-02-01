@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 900,
+  "experience": 8.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:selenium/raw_selenium_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "redstone_chemical_elements:selenium/selenium_block"
+  }
+}

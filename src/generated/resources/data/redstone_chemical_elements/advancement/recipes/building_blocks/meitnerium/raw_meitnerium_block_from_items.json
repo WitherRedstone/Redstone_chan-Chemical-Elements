@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_meitnerium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/meitnerium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:meitnerium/raw_meitnerium_block_from_items"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_meitnerium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:meitnerium/raw_meitnerium_block_from_items"
+    ]
+  }
+}

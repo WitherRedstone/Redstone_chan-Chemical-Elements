@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:chromium/chromium_ore",
+    "redstone_chemical_elements:chromium/deepslate_chromium_ore",
+    "redstone_chemical_elements:chromium/nether_chromium_ore",
+    "redstone_chemical_elements:chromium/end_chromium_ore"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_chlorine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/chlorine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:chlorine/chlorine_ingot_from_blasting_raw_chlorine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_chlorine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:chlorine/chlorine_ingot_from_blasting_raw_chlorine"
+    ]
+  }
+}

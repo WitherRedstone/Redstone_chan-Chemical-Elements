@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:dysprosium/dysprosium_ore",
+    "redstone_chemical_elements:dysprosium/deepslate_dysprosium_ore",
+    "redstone_chemical_elements:dysprosium/nether_dysprosium_ore",
+    "redstone_chemical_elements:dysprosium/end_dysprosium_ore"
+  ]
+}

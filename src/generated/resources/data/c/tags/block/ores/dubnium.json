@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:dubnium/dubnium_ore",
+    "redstone_chemical_elements:dubnium/deepslate_dubnium_ore",
+    "redstone_chemical_elements:dubnium/nether_dubnium_ore",
+    "redstone_chemical_elements:dubnium/end_dubnium_ore"
+  ]
+}

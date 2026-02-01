@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/iron/deepslate_iron_ore" 
+    } 
+  } 
+} 

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:meitnerium/meitnerium_ore",
+    "redstone_chemical_elements:meitnerium/deepslate_meitnerium_ore",
+    "redstone_chemical_elements:meitnerium/nether_meitnerium_ore",
+    "redstone_chemical_elements:meitnerium/end_meitnerium_ore"
+  ]
+}

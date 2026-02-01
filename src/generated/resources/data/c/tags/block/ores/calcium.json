@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:calcium/calcium_ore",
+    "redstone_chemical_elements:calcium/deepslate_calcium_ore",
+    "redstone_chemical_elements:calcium/nether_calcium_ore",
+    "redstone_chemical_elements:calcium/end_calcium_ore"
+  ]
+}

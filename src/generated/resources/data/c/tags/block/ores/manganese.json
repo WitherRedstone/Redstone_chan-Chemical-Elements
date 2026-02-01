@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:manganese/manganese_ore",
+    "redstone_chemical_elements:manganese/deepslate_manganese_ore",
+    "redstone_chemical_elements:manganese/nether_manganese_ore",
+    "redstone_chemical_elements:manganese/end_manganese_ore"
+  ]
+}

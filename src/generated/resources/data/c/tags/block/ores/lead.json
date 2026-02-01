@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:lead/lead_ore",
+    "redstone_chemical_elements:lead/deepslate_lead_ore",
+    "redstone_chemical_elements:lead/nether_lead_ore",
+    "redstone_chemical_elements:lead/end_lead_ore"
+  ]
+}

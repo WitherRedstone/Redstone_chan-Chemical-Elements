@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_polonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/polonium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:polonium/polonium_ingot_from_blasting_raw_polonium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_polonium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:polonium/polonium_ingot_from_blasting_raw_polonium"
+    ]
+  }
+}

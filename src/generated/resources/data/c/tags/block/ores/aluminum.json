@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:aluminum/aluminum_ore",
+    "redstone_chemical_elements:aluminum/deepslate_aluminum_ore",
+    "redstone_chemical_elements:aluminum/nether_aluminum_ore",
+    "redstone_chemical_elements:aluminum/end_aluminum_ore"
+  ]
+}

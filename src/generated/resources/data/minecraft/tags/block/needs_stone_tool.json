@@ -1,0 +1,12 @@
+{
+  "values": [
+    "redstone_chemical_elements:iron/iron_block",
+    "redstone_chemical_elements:iron/raw_iron_block",
+    "redstone_chemical_elements:iron/iron_ore",
+    "redstone_chemical_elements:iron/deepslate_iron_ore",
+    "redstone_chemical_elements:copper/copper_block",
+    "redstone_chemical_elements:copper/raw_copper_block",
+    "redstone_chemical_elements:copper/copper_ore",
+    "redstone_chemical_elements:copper/deepslate_copper_ore"
+  ]
+}

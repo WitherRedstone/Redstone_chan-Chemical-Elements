@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:zirconium/zirconium_block_from_ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zirconium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/zirconium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zirconium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:zirconium/zirconium_block_from_ingots"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:rubidium/rubidium_ore",
+    "redstone_chemical_elements:rubidium/deepslate_rubidium_ore",
+    "redstone_chemical_elements:rubidium/nether_rubidium_ore",
+    "redstone_chemical_elements:rubidium/end_rubidium_ore"
+  ]
+}

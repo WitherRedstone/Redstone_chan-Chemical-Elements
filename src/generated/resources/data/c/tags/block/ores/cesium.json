@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:cesium/cesium_ore",
+    "redstone_chemical_elements:cesium/deepslate_cesium_ore",
+    "redstone_chemical_elements:cesium/nether_cesium_ore",
+    "redstone_chemical_elements:cesium/end_cesium_ore"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dubnium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/dubnium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:dubnium/dubnium_ingot_from_nuggets"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dubnium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:dubnium/dubnium_ingot_from_nuggets"
+    ]
+  }
+}

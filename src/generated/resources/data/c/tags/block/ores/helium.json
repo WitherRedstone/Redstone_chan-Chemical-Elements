@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:helium/helium_ore",
+    "redstone_chemical_elements:helium/deepslate_helium_ore",
+    "redstone_chemical_elements:helium/nether_helium_ore",
+    "redstone_chemical_elements:helium/end_helium_ore"
+  ]
+}

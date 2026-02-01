@@ -1,0 +1,6 @@
+{ 
+  "parent": "block/cube_all", 
+  "textures": { 
+    "all": "redstone_chemical_elements:block/europium/end_europium_ore" 
+  } 
+} 

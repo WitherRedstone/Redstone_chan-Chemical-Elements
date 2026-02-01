@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:zirconium/zirconium_ore",
+    "redstone_chemical_elements:zirconium/deepslate_zirconium_ore",
+    "redstone_chemical_elements:zirconium/nether_zirconium_ore",
+    "redstone_chemical_elements:zirconium/end_zirconium_ore"
+  ]
+}

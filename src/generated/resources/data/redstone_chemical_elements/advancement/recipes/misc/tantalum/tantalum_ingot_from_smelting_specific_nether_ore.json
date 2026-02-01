@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_tantalum_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:tantalum/nether_tantalum_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:tantalum/tantalum_ingot_from_smelting_specific_nether_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_tantalum_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:tantalum/tantalum_ingot_from_smelting_specific_nether_ore"
+    ]
+  }
+}

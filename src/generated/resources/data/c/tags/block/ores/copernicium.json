@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:copernicium/copernicium_ore",
+    "redstone_chemical_elements:copernicium/deepslate_copernicium_ore",
+    "redstone_chemical_elements:copernicium/nether_copernicium_ore",
+    "redstone_chemical_elements:copernicium/end_copernicium_ore"
+  ]
+}

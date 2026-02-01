@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:molybdenum/molybdenum_ore",
+    "redstone_chemical_elements:molybdenum/deepslate_molybdenum_ore",
+    "redstone_chemical_elements:molybdenum/nether_molybdenum_ore",
+    "redstone_chemical_elements:molybdenum/end_molybdenum_ore"
+  ]
+}

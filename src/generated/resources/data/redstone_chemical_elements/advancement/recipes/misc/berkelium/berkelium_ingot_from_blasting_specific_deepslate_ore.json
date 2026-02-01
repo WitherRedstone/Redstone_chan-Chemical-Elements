@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_berkelium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:berkelium/deepslate_berkelium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:berkelium/berkelium_ingot_from_blasting_specific_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deepslate_berkelium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:berkelium/berkelium_ingot_from_blasting_specific_deepslate_ore"
+    ]
+  }
+}

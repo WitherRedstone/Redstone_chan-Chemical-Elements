@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:rutherfordium/rutherfordium_ore",
+    "redstone_chemical_elements:rutherfordium/deepslate_rutherfordium_ore",
+    "redstone_chemical_elements:rutherfordium/nether_rutherfordium_ore",
+    "redstone_chemical_elements:rutherfordium/end_rutherfordium_ore"
+  ]
+}

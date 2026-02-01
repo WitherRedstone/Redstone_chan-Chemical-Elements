@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/plutonium/nether_plutonium_ore" 
+    } 
+  } 
+} 

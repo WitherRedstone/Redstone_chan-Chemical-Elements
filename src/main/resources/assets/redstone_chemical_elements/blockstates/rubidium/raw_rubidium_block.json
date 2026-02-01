@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/rubidium/raw_rubidium_block" 
+    } 
+  } 
+} 

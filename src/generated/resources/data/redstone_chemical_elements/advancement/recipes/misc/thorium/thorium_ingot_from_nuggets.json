@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:thorium/thorium_ingot_from_nuggets"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thorium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/thorium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thorium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:thorium/thorium_ingot_from_nuggets"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:titanium/titanium_ore",
+    "redstone_chemical_elements:titanium/deepslate_titanium_ore",
+    "redstone_chemical_elements:titanium/nether_titanium_ore",
+    "redstone_chemical_elements:titanium/end_titanium_ore"
+  ]
+}

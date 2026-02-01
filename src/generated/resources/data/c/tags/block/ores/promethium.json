@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:promethium/promethium_ore",
+    "redstone_chemical_elements:promethium/deepslate_promethium_ore",
+    "redstone_chemical_elements:promethium/nether_promethium_ore",
+    "redstone_chemical_elements:promethium/end_promethium_ore"
+  ]
+}

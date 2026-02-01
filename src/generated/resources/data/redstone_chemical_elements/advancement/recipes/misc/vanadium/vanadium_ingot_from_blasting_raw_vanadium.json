@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_vanadium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/vanadium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:vanadium/vanadium_ingot_from_blasting_raw_vanadium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_vanadium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:vanadium/vanadium_ingot_from_blasting_raw_vanadium"
+    ]
+  }
+}

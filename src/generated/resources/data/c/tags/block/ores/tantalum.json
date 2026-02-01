@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:tantalum/tantalum_ore",
+    "redstone_chemical_elements:tantalum/deepslate_tantalum_ore",
+    "redstone_chemical_elements:tantalum/nether_tantalum_ore",
+    "redstone_chemical_elements:tantalum/end_tantalum_ore"
+  ]
+}

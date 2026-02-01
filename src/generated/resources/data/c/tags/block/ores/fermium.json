@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:fermium/fermium_ore",
+    "redstone_chemical_elements:fermium/deepslate_fermium_ore",
+    "redstone_chemical_elements:fermium/nether_fermium_ore",
+    "redstone_chemical_elements:fermium/end_fermium_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:hassium/hassium_ore",
+    "redstone_chemical_elements:hassium/deepslate_hassium_ore",
+    "redstone_chemical_elements:hassium/nether_hassium_ore",
+    "redstone_chemical_elements:hassium/end_hassium_ore"
+  ]
+}

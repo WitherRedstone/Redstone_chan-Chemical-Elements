@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gallium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/gallium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:gallium/gallium_ingot_from_nuggets"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gallium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:gallium/gallium_ingot_from_nuggets"
+    ]
+  }
+}

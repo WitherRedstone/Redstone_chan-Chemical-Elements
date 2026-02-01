@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:protactinium/protactinium_ore",
+    "redstone_chemical_elements:protactinium/deepslate_protactinium_ore",
+    "redstone_chemical_elements:protactinium/nether_protactinium_ore",
+    "redstone_chemical_elements:protactinium/end_protactinium_ore"
+  ]
+}

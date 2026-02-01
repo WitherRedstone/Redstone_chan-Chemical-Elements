@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:thallium/thallium_ore",
+    "redstone_chemical_elements:thallium/deepslate_thallium_ore",
+    "redstone_chemical_elements:thallium/nether_thallium_ore",
+    "redstone_chemical_elements:thallium/end_thallium_ore"
+  ]
+}

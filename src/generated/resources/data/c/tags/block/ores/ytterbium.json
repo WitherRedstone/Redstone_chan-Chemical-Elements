@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:ytterbium/ytterbium_ore",
+    "redstone_chemical_elements:ytterbium/deepslate_ytterbium_ore",
+    "redstone_chemical_elements:ytterbium/nether_ytterbium_ore",
+    "redstone_chemical_elements:ytterbium/end_ytterbium_ore"
+  ]
+}

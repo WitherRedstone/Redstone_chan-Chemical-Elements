@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:chlorine/chlorine_ore",
+    "redstone_chemical_elements:chlorine/deepslate_chlorine_ore",
+    "redstone_chemical_elements:chlorine/nether_chlorine_ore",
+    "redstone_chemical_elements:chlorine/end_chlorine_ore"
+  ]
+}

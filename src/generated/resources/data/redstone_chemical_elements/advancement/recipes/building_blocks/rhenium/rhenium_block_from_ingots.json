@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rhenium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/rhenium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:rhenium/rhenium_block_from_ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rhenium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:rhenium/rhenium_block_from_ingots"
+    ]
+  }
+}

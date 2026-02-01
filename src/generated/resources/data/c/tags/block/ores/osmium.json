@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:osmium/osmium_ore",
+    "redstone_chemical_elements:osmium/deepslate_osmium_ore",
+    "redstone_chemical_elements:osmium/nether_osmium_ore",
+    "redstone_chemical_elements:osmium/end_osmium_ore"
+  ]
+}

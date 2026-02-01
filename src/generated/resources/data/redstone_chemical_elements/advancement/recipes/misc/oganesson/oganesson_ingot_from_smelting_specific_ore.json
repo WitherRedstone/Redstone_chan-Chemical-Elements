@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oganesson_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:oganesson/oganesson_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:oganesson/oganesson_ingot_from_smelting_specific_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oganesson_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:oganesson/oganesson_ingot_from_smelting_specific_ore"
+    ]
+  }
+}

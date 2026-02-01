@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:yttrium/yttrium_ingot_from_nuggets"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yttrium_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/yttrium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yttrium_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:yttrium/yttrium_ingot_from_nuggets"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:lanthanum/lanthanum_ore",
+    "redstone_chemical_elements:lanthanum/deepslate_lanthanum_ore",
+    "redstone_chemical_elements:lanthanum/nether_lanthanum_ore",
+    "redstone_chemical_elements:lanthanum/end_lanthanum_ore"
+  ]
+}

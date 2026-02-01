@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:neptunium/neptunium_ore",
+    "redstone_chemical_elements:neptunium/deepslate_neptunium_ore",
+    "redstone_chemical_elements:neptunium/nether_neptunium_ore",
+    "redstone_chemical_elements:neptunium/end_neptunium_ore"
+  ]
+}

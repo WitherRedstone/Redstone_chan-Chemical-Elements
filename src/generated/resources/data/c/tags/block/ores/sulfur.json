@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:sulfur/sulfur_ore",
+    "redstone_chemical_elements:sulfur/deepslate_sulfur_ore",
+    "redstone_chemical_elements:sulfur/nether_sulfur_ore",
+    "redstone_chemical_elements:sulfur/end_sulfur_ore"
+  ]
+}

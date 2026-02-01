@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_promethium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/promethium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:promethium/promethium_block_from_ingots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_promethium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:promethium/promethium_block_from_ingots"
+    ]
+  }
+}

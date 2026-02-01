@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:radium/radium_ore",
+    "redstone_chemical_elements:radium/deepslate_radium_ore",
+    "redstone_chemical_elements:radium/nether_radium_ore",
+    "redstone_chemical_elements:radium/end_radium_ore"
+  ]
+}

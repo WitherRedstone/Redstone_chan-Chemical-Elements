@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:nickel/nickel_ore",
+    "redstone_chemical_elements:nickel/deepslate_nickel_ore",
+    "redstone_chemical_elements:nickel/nether_nickel_ore",
+    "redstone_chemical_elements:nickel/end_nickel_ore"
+  ]
+}

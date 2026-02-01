@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_tantalum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/tantalum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:tantalum/tantalum_ingot_from_smelting_raw_tantalum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_tantalum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:tantalum/tantalum_ingot_from_smelting_raw_tantalum"
+    ]
+  }
+}

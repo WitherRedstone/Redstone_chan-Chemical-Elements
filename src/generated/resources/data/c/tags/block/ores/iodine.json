@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:iodine/iodine_ore",
+    "redstone_chemical_elements:iodine/deepslate_iodine_ore",
+    "redstone_chemical_elements:iodine/nether_iodine_ore",
+    "redstone_chemical_elements:iodine/end_iodine_ore"
+  ]
+}

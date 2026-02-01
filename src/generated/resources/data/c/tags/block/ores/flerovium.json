@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:flerovium/flerovium_ore",
+    "redstone_chemical_elements:flerovium/deepslate_flerovium_ore",
+    "redstone_chemical_elements:flerovium/nether_flerovium_ore",
+    "redstone_chemical_elements:flerovium/end_flerovium_ore"
+  ]
+}

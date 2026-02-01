@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:xenon/xenon_ore",
+    "redstone_chemical_elements:xenon/deepslate_xenon_ore",
+    "redstone_chemical_elements:xenon/nether_xenon_ore",
+    "redstone_chemical_elements:xenon/end_xenon_ore"
+  ]
+}

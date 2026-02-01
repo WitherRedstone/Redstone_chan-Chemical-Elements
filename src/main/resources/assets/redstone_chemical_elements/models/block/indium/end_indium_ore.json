@@ -1,0 +1,6 @@
+{ 
+  "parent": "block/cube_all", 
+  "textures": { 
+    "all": "redstone_chemical_elements:block/indium/end_indium_ore" 
+  } 
+} 

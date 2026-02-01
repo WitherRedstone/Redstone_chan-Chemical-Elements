@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_einsteinium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/einsteinium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:einsteinium/einsteinium_ingot_from_smelting_raw_einsteinium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_einsteinium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:einsteinium/einsteinium_ingot_from_smelting_raw_einsteinium"
+    ]
+  }
+}

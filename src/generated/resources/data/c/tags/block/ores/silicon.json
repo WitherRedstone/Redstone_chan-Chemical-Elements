@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:silicon/silicon_ore",
+    "redstone_chemical_elements:silicon/deepslate_silicon_ore",
+    "redstone_chemical_elements:silicon/nether_silicon_ore",
+    "redstone_chemical_elements:silicon/end_silicon_ore"
+  ]
+}

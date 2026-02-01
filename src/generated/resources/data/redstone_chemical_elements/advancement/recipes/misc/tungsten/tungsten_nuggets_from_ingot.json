@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:tungsten/tungsten_nuggets_from_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tungsten_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "redstone_chemical_elements:tungsten/tungsten_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tungsten_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:tungsten/tungsten_nuggets_from_ingot"
+    ]
+  }
+}

@@ -70,6 +70,17 @@ public class ModCreativeTabs {
                             output.accept(ElementBlock.getNetherOre(elementName).get()); // 下界矿石
                             output.accept(ElementBlock.getEndOre(elementName).get()); // 末地矿石
                         }
+
+                        // 添加 ELEMENT_ORES 中的特殊矿石方块
+                        for (Object[] ore : ElementBlock.ELEMENT_ORES) {
+                            String oreName = (String) ore[0];
+
+                            // 添加该矿石的各种形式
+                            output.accept(ElementBlock.getOre(oreName).get()); // 矿石
+                            output.accept(ElementBlock.getDeepslateOre(oreName).get()); // 深层矿石
+                            output.accept(ElementBlock.getNetherOre(oreName).get()); // 下界矿石
+                            output.accept(ElementBlock.getEndOre(oreName).get()); // 末地矿石
+                        }
                     })
                     .build());
 

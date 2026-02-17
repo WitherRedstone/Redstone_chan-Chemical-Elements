@@ -1934,5 +1934,137 @@
   "block.redstone_chemical_elements.mysterium.mysterium_ore": "镾矿石",
   "block.redstone_chemical_elements.mysterium.deepslate_mysterium_ore": "深层镾矿石",
   "block.redstone_chemical_elements.mysterium.nether_mysterium_ore": "下界镾矿石",
-  "block.redstone_chemical_elements.mysterium.end_mysterium_ore": "末地镾矿石"
+  "block.redstone_chemical_elements.mysterium.end_mysterium_ore": "末地镾矿石",
+
+
+
+  "block.redstone_chemical_elements.lepidolite.lepidolite": "锂云母",
+  "block.redstone_chemical_elements.lepidolite.deepslate_lepidolite": "深层锂云母",
+  "block.redstone_chemical_elements.lepidolite.nether_lepidolite": "下界锂云母",
+  "block.redstone_chemical_elements.lepidolite.end_lepidolite": "末地锂云母",
+
+  "block.redstone_chemical_elements.beryl.beryl": "绿柱石",
+  "block.redstone_chemical_elements.beryl.deepslate_beryl": "深层绿柱石",
+  "block.redstone_chemical_elements.beryl.nether_beryl": "下界绿柱石",
+  "block.redstone_chemical_elements.beryl.end_beryl": "末地绿柱石",
+
+  "block.redstone_chemical_elements.borax.borax": "硼砂",
+  "block.redstone_chemical_elements.borax.deepslate_borax": "深层硼砂",
+  "block.redstone_chemical_elements.borax.nether_borax": "下界硼砂",
+  "block.redstone_chemical_elements.borax.end_borax": "末地硼砂",
+
+  "block.redstone_chemical_elements.magnesite.magnesite": "菱镁矿",
+  "block.redstone_chemical_elements.magnesite.deepslate_magnesite": "深层菱镁矿",
+  "block.redstone_chemical_elements.magnesite.nether_magnesite": "下界菱镁矿",
+  "block.redstone_chemical_elements.magnesite.end_magnesite": "末地菱镁矿",
+
+  "block.redstone_chemical_elements.nitre.nitre": "硝石",
+  "block.redstone_chemical_elements.nitre.deepslate_nitre": "深层硝石",
+  "block.redstone_chemical_elements.nitre.nether_nitre": "下界硝石",
+  "block.redstone_chemical_elements.nitre.end_nitre": "末地硝石",
+
+  "block.redstone_chemical_elements.apatite.apatite": "磷灰石",
+  "block.redstone_chemical_elements.apatite.deepslate_apatite": "深层磷灰石",
+  "block.redstone_chemical_elements.apatite.nether_apatite": "下界磷灰石",
+  "block.redstone_chemical_elements.apatite.end_apatite": "末地磷灰石",
+
+  "block.redstone_chemical_elements.monazite.monazite": "独居石",
+  "block.redstone_chemical_elements.monazite.deepslate_monazite": "深层独居石",
+  "block.redstone_chemical_elements.monazite.nether_monazite": "下界独居石",
+  "block.redstone_chemical_elements.monazite.end_monazite": "末地独居石",
+
+  "block.redstone_chemical_elements.cinnabar.cinnabar": "朱砂",
+  "block.redstone_chemical_elements.cinnabar.deepslate_cinnabar": "深层朱砂",
+  "block.redstone_chemical_elements.cinnabar.nether_cinnabar": "下界朱砂",
+  "block.redstone_chemical_elements.cinnabar.end_cinnabar": "末地朱砂",
+
+  "block.redstone_chemical_elements.sylvite.sylvite": "钾石盐",
+  "block.redstone_chemical_elements.sylvite.deepslate_sylvite": "深层钾石盐",
+  "block.redstone_chemical_elements.sylvite.nether_sylvite": "下界钾石盐",
+  "block.redstone_chemical_elements.sylvite.end_sylvite": "末地钾石盐",
+
+  "block.redstone_chemical_elements.thortveitite.thortveitite": "钪钇石",
+  "block.redstone_chemical_elements.thortveitite.deepslate_thortveitite": "深层钪钇石",
+  "block.redstone_chemical_elements.thortveitite.nether_thortveitite": "下界钪钇石",
+  "block.redstone_chemical_elements.thortveitite.end_thortveitite": "末地钪钇石",
+
+  "block.redstone_chemical_elements.tilmenite.tilmenite": "钛铁矿",
+  "block.redstone_chemical_elements.tilmenite.deepslate_tilmenite": "深层钛铁矿",
+  "block.redstone_chemical_elements.tilmenite.nether_tilmenite": "下界钛铁矿",
+  "block.redstone_chemical_elements.tilmenite.end_tilmenite": "末地钛铁矿",
+
+  "block.redstone_chemical_elements.patronite.patronite": "绿硫钒矿",
+  "block.redstone_chemical_elements.patronite.deepslate_patronite": "深层绿硫钒矿",
+  "block.redstone_chemical_elements.patronite.nether_patronite": "下界绿硫钒矿",
+  "block.redstone_chemical_elements.patronite.end_patronite": "末地绿硫钒矿",
+
+  "block.redstone_chemical_elements.chromite.chromite": "铬铁矿",
+  "block.redstone_chemical_elements.chromite.deepslate_chromite": "深层铬铁矿",
+  "block.redstone_chemical_elements.chromite.nether_chromite": "下界铬铁矿",
+  "block.redstone_chemical_elements.chromite.end_chromite": "末地铬铁矿",
+
+  "block.redstone_chemical_elements.pyrolusite.pyrolusite": "软锰矿",
+  "block.redstone_chemical_elements.pyrolusite.deepslate_pyrolusite": "深层软锰矿",
+  "block.redstone_chemical_elements.pyrolusite.nether_pyrolusite": "下界软锰矿",
+  "block.redstone_chemical_elements.pyrolusite.end_pyrolusite": "末地软锰矿",
+
+  "block.redstone_chemical_elements.argyrodite.argyrodite": "硫锗矿",
+  "block.redstone_chemical_elements.argyrodite.deepslate_argyrodite": "深层硫锗矿",
+  "block.redstone_chemical_elements.argyrodite.nether_argyrodite": "下界硫锗矿",
+  "block.redstone_chemical_elements.argyrodite.end_argyrodite": "末地硫锗矿",
+
+  "block.redstone_chemical_elements.arsenopyrite.arsenopyrite": "毒砂",
+  "block.redstone_chemical_elements.arsenopyrite.deepslate_arsenopyrite": "深层毒砂",
+  "block.redstone_chemical_elements.arsenopyrite.nether_arsenopyrite": "下界毒砂",
+  "block.redstone_chemical_elements.arsenopyrite.end_arsenopyrite": "末地毒砂",
+
+  "block.redstone_chemical_elements.carnallite.carnallite": "光卤石",
+  "block.redstone_chemical_elements.carnallite.deepslate_carnallite": "深层光卤石",
+  "block.redstone_chemical_elements.carnallite.nether_carnallite": "下界光卤石",
+  "block.redstone_chemical_elements.carnallite.end_carnallite": "末地光卤石",
+
+  "block.redstone_chemical_elements.celestine.celestine": "天青石",
+  "block.redstone_chemical_elements.celestine.deepslate_celestine": "深层天青石",
+  "block.redstone_chemical_elements.celestine.nether_celestine": "下界天青石",
+  "block.redstone_chemical_elements.celestine.end_celestine": "末地天青石",
+
+  "block.redstone_chemical_elements.cobaltite.cobaltite": "辉钴矿",
+  "block.redstone_chemical_elements.cobaltite.deepslate_cobaltite": "深层辉钴矿",
+  "block.redstone_chemical_elements.cobaltite.nether_cobaltite": "下界辉钴矿",
+  "block.redstone_chemical_elements.cobaltite.end_cobaltite": "末地辉钴矿",
+
+  "block.redstone_chemical_elements.zircon.zircon": "锆英砂",
+  "block.redstone_chemical_elements.zircon.deepslate_zircon": "深层锆英砂",
+  "block.redstone_chemical_elements.zircon.nether_zircon": "下界锆英砂",
+  "block.redstone_chemical_elements.zircon.end_zircon": "末地锆英砂",
+
+  "block.redstone_chemical_elements.niobite.niobite": "铌铁矿",
+  "block.redstone_chemical_elements.niobite.deepslate_niobite": "深层铌铁矿",
+  "block.redstone_chemical_elements.niobite.nether_niobite": "下界铌铁矿",
+  "block.redstone_chemical_elements.niobite.end_niobite": "末地铌铁矿",
+
+  "block.redstone_chemical_elements.molybdenite.molybdenite": "辉钼矿",
+  "block.redstone_chemical_elements.molybdenite.deepslate_molybdenite": "深层辉钼矿",
+  "block.redstone_chemical_elements.molybdenite.nether_molybdenite": "下界辉钼矿",
+  "block.redstone_chemical_elements.molybdenite.end_molybdenite": "末地辉钼矿",
+
+  "block.redstone_chemical_elements.stibnite.stibnite": "辉锑矿",
+  "block.redstone_chemical_elements.stibnite.deepslate_stibnite": "深层辉锑矿",
+  "block.redstone_chemical_elements.stibnite.nether_stibnite": "下界辉锑矿",
+  "block.redstone_chemical_elements.stibnite.end_stibnite": "末地辉锑矿",
+
+  "block.redstone_chemical_elements.pollucite.pollucite": "铯沸石",
+  "block.redstone_chemical_elements.pollucite.deepslate_pollucite": "深层铯沸石",
+  "block.redstone_chemical_elements.pollucite.nether_pollucite": "下界铯沸石",
+  "block.redstone_chemical_elements.pollucite.end_pollucite": "末地铯沸石",
+
+  "block.redstone_chemical_elements.barite.barite": "重晶石",
+  "block.redstone_chemical_elements.barite.deepslate_barite": "深层重晶石",
+  "block.redstone_chemical_elements.barite.nether_barite": "下界重晶石",
+  "block.redstone_chemical_elements.barite.end_barite": "末地重晶石",
+
+  "block.redstone_chemical_elements.pyrite.pyrite": "黄铁矿",
+  "block.redstone_chemical_elements.pyrite.deepslate_pyrite": "深层黄铁矿",
+  "block.redstone_chemical_elements.pyrite.nether_pyrite": "下界黄铁矿",
+  "block.redstone_chemical_elements.pyrite.end_pyrite": "末地黄铁矿"
 }

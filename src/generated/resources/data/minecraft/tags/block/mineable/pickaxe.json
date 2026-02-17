@@ -719,6 +719,422 @@
     "redstone_chemical_elements:mysterium/mysterium_ore",
     "redstone_chemical_elements:mysterium/deepslate_mysterium_ore",
     "redstone_chemical_elements:mysterium/nether_mysterium_ore",
-    "redstone_chemical_elements:mysterium/end_mysterium_ore"
+    "redstone_chemical_elements:mysterium/end_mysterium_ore",
+    {
+      "id": "redstone_chemical_elements:lepidolite/lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/deepslate_lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/nether_lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/end_lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/deepslate_beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/nether_beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/end_beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/deepslate_borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/nether_borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/end_borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:magnesite/magnesite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:magnesite/deepslate_magnesite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:magnesite/nether_magnesite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:magnesite/end_magnesite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/deepslate_nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/nether_nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/end_nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/deepslate_apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/nether_apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/end_apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/deepslate_monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/nether_monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/end_monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/deepslate_cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/nether_cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/end_cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/deepslate_sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/nether_sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/end_sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/deepslate_thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/nether_thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/end_thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/deepslate_tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/nether_tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/end_tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/deepslate_patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/nether_patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/end_patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/deepslate_chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/nether_chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/end_chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/deepslate_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/nether_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/end_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/deepslate_argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/nether_argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/end_argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/deepslate_arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/nether_arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/end_arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/deepslate_carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/nether_carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/end_carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/deepslate_celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/nether_celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/end_celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/deepslate_cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/nether_cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/end_cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/deepslate_zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/nether_zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/end_zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/deepslate_niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/nether_niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/end_niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/deepslate_molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/nether_molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/end_molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/deepslate_stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/nether_stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/end_stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/deepslate_pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/nether_pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/end_pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/deepslate_barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/nether_barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/end_barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/deepslate_pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/nether_pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/end_pyrite",
+      "required": false
+    }
   ]
 }

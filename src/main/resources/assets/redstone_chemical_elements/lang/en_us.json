@@ -1934,5 +1934,137 @@
   "block.redstone_chemical_elements.mysterium.mysterium_ore": "Mysterium Ore",
   "block.redstone_chemical_elements.mysterium.deepslate_mysterium_ore": "Deepslate Mysterium Ore",
   "block.redstone_chemical_elements.mysterium.nether_mysterium_ore": "Nether Mysterium Ore",
-  "block.redstone_chemical_elements.mysterium.end_mysterium_ore": "End Mysterium Ore"
+  "block.redstone_chemical_elements.mysterium.end_mysterium_ore": "End Mysterium Ore",
+
+
+
+  "block.redstone_chemical_elements.lepidolite.lepidolite": "Lepidolite",
+  "block.redstone_chemical_elements.lepidolite.deepslate_lepidolite": "Deepslate Lepidolite",
+  "block.redstone_chemical_elements.lepidolite.nether_lepidolite": "Nether Lepidolite",
+  "block.redstone_chemical_elements.lepidolite.end_lepidolite": "End Lepidolite",
+
+  "block.redstone_chemical_elements.beryl.beryl": "Beryl",
+  "block.redstone_chemical_elements.beryl.deepslate_beryl": "Deepslate Beryl",
+  "block.redstone_chemical_elements.beryl.nether_beryl": "Nether Beryl",
+  "block.redstone_chemical_elements.beryl.end_beryl": "End Beryl",
+
+  "block.redstone_chemical_elements.borax.borax": "Borax",
+  "block.redstone_chemical_elements.borax.deepslate_borax": "Deepslate Borax",
+  "block.redstone_chemical_elements.borax.nether_borax": "Nether Borax",
+  "block.redstone_chemical_elements.borax.end_borax": "End Borax",
+
+  "block.redstone_chemical_elements.magnesite.magnesite": "Magnesite",
+  "block.redstone_chemical_elements.magnesite.deepslate_magnesite": "Deepslate Magnesite",
+  "block.redstone_chemical_elements.magnesite.nether_magnesite": "Nether Magnesite",
+  "block.redstone_chemical_elements.magnesite.end_magnesite": "End Magnesite",
+
+  "block.redstone_chemical_elements.nitre.nitre": "Nitre",
+  "block.redstone_chemical_elements.nitre.deepslate_nitre": "Deepslate Nitre",
+  "block.redstone_chemical_elements.nitre.nether_nitre": "Nether Nitre",
+  "block.redstone_chemical_elements.nitre.end_nitre": "End Nitre",
+
+  "block.redstone_chemical_elements.apatite.apatite": "Apatite",
+  "block.redstone_chemical_elements.apatite.deepslate_apatite": "Deepslate Apatite",
+  "block.redstone_chemical_elements.apatite.nether_apatite": "Nether Apatite",
+  "block.redstone_chemical_elements.apatite.end_apatite": "End Apatite",
+
+  "block.redstone_chemical_elements.monazite.monazite": "Monazite",
+  "block.redstone_chemical_elements.monazite.deepslate_monazite": "Deepslate Monazite",
+  "block.redstone_chemical_elements.monazite.nether_monazite": "Nether Monazite",
+  "block.redstone_chemical_elements.monazite.end_monazite": "End Monazite",
+
+  "block.redstone_chemical_elements.cinnabar.cinnabar": "Cinnabar",
+  "block.redstone_chemical_elements.cinnabar.deepslate_cinnabar": "Deepslate Cinnabar",
+  "block.redstone_chemical_elements.cinnabar.nether_cinnabar": "Nether Cinnabar",
+  "block.redstone_chemical_elements.cinnabar.end_cinnabar": "End Cinnabar",
+
+  "block.redstone_chemical_elements.sylvite.sylvite": "Sylvite",
+  "block.redstone_chemical_elements.sylvite.deepslate_sylvite": "Deepslate Sylvite",
+  "block.redstone_chemical_elements.sylvite.nether_sylvite": "Nether Sylvite",
+  "block.redstone_chemical_elements.sylvite.end_sylvite": "End Sylvite",
+
+  "block.redstone_chemical_elements.thortveitite.thortveitite": "Thortveitite",
+  "block.redstone_chemical_elements.thortveitite.deepslate_thortveitite": "Deepslate Thortveitite",
+  "block.redstone_chemical_elements.thortveitite.nether_thortveitite": "Nether Thortveitite",
+  "block.redstone_chemical_elements.thortveitite.end_thortveitite": "End Thortveitite",
+
+  "block.redstone_chemical_elements.tilmenite.tilmenite": "Tilmenite",
+  "block.redstone_chemical_elements.tilmenite.deepslate_tilmenite": "Deepslate Tilmenite",
+  "block.redstone_chemical_elements.tilmenite.nether_tilmenite": "Nether Tilmenite",
+  "block.redstone_chemical_elements.tilmenite.end_tilmenite": "End Tilmenite",
+
+  "block.redstone_chemical_elements.patronite.patronite": "Patronite",
+  "block.redstone_chemical_elements.patronite.deepslate_patronite": "Deepslate Patronite",
+  "block.redstone_chemical_elements.patronite.nether_patronite": "Nether Patronite",
+  "block.redstone_chemical_elements.patronite.end_patronite": "End Patronite",
+
+  "block.redstone_chemical_elements.chromite.chromite": "Chromite",
+  "block.redstone_chemical_elements.chromite.deepslate_chromite": "Deepslate Chromite",
+  "block.redstone_chemical_elements.chromite.nether_chromite": "Nether Chromite",
+  "block.redstone_chemical_elements.chromite.end_chromite": "End Chromite",
+
+  "block.redstone_chemical_elements.pyrolusite.pyrolusite": "Pyrolusite",
+  "block.redstone_chemical_elements.pyrolusite.deepslate_pyrolusite": "Deepslate Pyrolusite",
+  "block.redstone_chemical_elements.pyrolusite.nether_pyrolusite": "Nether Pyrolusite",
+  "block.redstone_chemical_elements.pyrolusite.end_pyrolusite": "End Pyrolusite",
+
+  "block.redstone_chemical_elements.argyrodite.argyrodite": "Argyrodite",
+  "block.redstone_chemical_elements.argyrodite.deepslate_argyrodite": "Deepslate Argyrodite",
+  "block.redstone_chemical_elements.argyrodite.nether_argyrodite": "Nether Argyrodite",
+  "block.redstone_chemical_elements.argyrodite.end_argyrodite": "End Argyrodite",
+
+  "block.redstone_chemical_elements.arsenopyrite.arsenopyrite": "Arsenopyrite",
+  "block.redstone_chemical_elements.arsenopyrite.deepslate_arsenopyrite": "Deepslate Arsenopyrite",
+  "block.redstone_chemical_elements.arsenopyrite.nether_arsenopyrite": "Nether Arsenopyrite",
+  "block.redstone_chemical_elements.arsenopyrite.end_arsenopyrite": "End Arsenopyrite",
+
+  "block.redstone_chemical_elements.carnallite.carnallite": "Carnallite",
+  "block.redstone_chemical_elements.carnallite.deepslate_carnallite": "Deepslate Carnallite",
+  "block.redstone_chemical_elements.carnallite.nether_carnallite": "Nether Carnallite",
+  "block.redstone_chemical_elements.carnallite.end_carnallite": "End Carnallite",
+
+  "block.redstone_chemical_elements.celestine.celestine": "Celestine",
+  "block.redstone_chemical_elements.celestine.deepslate_celestine": "Deepslate Celestine",
+  "block.redstone_chemical_elements.celestine.nether_celestine": "Nether Celestine",
+  "block.redstone_chemical_elements.celestine.end_celestine": "End Celestine",
+
+  "block.redstone_chemical_elements.cobaltite.cobaltite": "Cobaltite",
+  "block.redstone_chemical_elements.cobaltite.deepslate_cobaltite": "Deepslate Cobaltite",
+  "block.redstone_chemical_elements.cobaltite.nether_cobaltite": "Nether Cobaltite",
+  "block.redstone_chemical_elements.cobaltite.end_cobaltite": "End Cobaltite",
+
+  "block.redstone_chemical_elements.zircon.zircon": "Zircon",
+  "block.redstone_chemical_elements.zircon.deepslate_zircon": "Deepslate Zircon",
+  "block.redstone_chemical_elements.zircon.nether_zircon": "Nether Zircon",
+  "block.redstone_chemical_elements.zircon.end_zircon": "End Zircon",
+
+  "block.redstone_chemical_elements.niobite.niobite": "Niobite",
+  "block.redstone_chemical_elements.niobite.deepslate_niobite": "Deepslate Niobite",
+  "block.redstone_chemical_elements.niobite.nether_niobite": "Nether Niobite",
+  "block.redstone_chemical_elements.niobite.end_niobite": "End Niobite",
+
+  "block.redstone_chemical_elements.molybdenite.molybdenite": "Molybdenite",
+  "block.redstone_chemical_elements.molybdenite.deepslate_molybdenite": "Deepslate Molybdenite",
+  "block.redstone_chemical_elements.molybdenite.nether_molybdenite": "Nether Molybdenite",
+  "block.redstone_chemical_elements.molybdenite.end_molybdenite": "End Molybdenite",
+
+  "block.redstone_chemical_elements.stibnite.stibnite": "Stibnite",
+  "block.redstone_chemical_elements.stibnite.deepslate_stibnite": "Deepslate Stibnite",
+  "block.redstone_chemical_elements.stibnite.nether_stibnite": "Nether Stibnite",
+  "block.redstone_chemical_elements.stibnite.end_stibnite": "End Stibnite",
+
+  "block.redstone_chemical_elements.pollucite.pollucite": "Pollucite",
+  "block.redstone_chemical_elements.pollucite.deepslate_pollucite": "Deepslate Pollucite",
+  "block.redstone_chemical_elements.pollucite.nether_pollucite": "Nether Pollucite",
+  "block.redstone_chemical_elements.pollucite.end_pollucite": "End Pollucite",
+
+  "block.redstone_chemical_elements.barite.barite": "Barite",
+  "block.redstone_chemical_elements.barite.deepslate_barite": "Deepslate Barite",
+  "block.redstone_chemical_elements.barite.nether_barite": "Nether Barite",
+  "block.redstone_chemical_elements.barite.end_barite": "End Barite",
+
+  "block.redstone_chemical_elements.pyrite.pyrite": "Pyrite",
+  "block.redstone_chemical_elements.pyrite.deepslate_pyrite": "Deepslate Pyrite",
+  "block.redstone_chemical_elements.pyrite.nether_pyrite": "Nether Pyrite",
+  "block.redstone_chemical_elements.pyrite.end_pyrite": "End Pyrite"
 }

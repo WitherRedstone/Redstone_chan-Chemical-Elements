@@ -1,7 +1,7 @@
 package com.chinaex123.redstone_chemical_elements;
 
 import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockLootTablesProvider;
-import com.chinaex123.redstone_chemical_elements.dataGen.ModCommonTags;
+import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockTagsProvider;
 import com.chinaex123.redstone_chemical_elements.dataGen.ModRecipesProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -26,14 +26,13 @@ public class ModDataGenerator {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
-
         // 创建方块标签提供器
-        var blockTags = new ModCommonTags.BlockTags(packOutput, lookupProvider, existingFileHelper);
+        var blockTags = new ModBlockTagsProvider.BlockTags(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTags);
 
         // 生成物品标签
         generator.addProvider(event.includeServer(),
-                new ModCommonTags.ItemTags(packOutput, lookupProvider,
+                new ModBlockTagsProvider.ItemTags(packOutput, lookupProvider,
                         blockTags.contentsGetter(), existingFileHelper));
 
         // 注册配方生成器

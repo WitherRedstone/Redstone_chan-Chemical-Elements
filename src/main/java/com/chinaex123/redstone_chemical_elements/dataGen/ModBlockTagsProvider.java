@@ -23,7 +23,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
-public class ModCommonTags {
+public class ModBlockTagsProvider {
 
     // 自定义标签键
     public static final TagKey<Item> WIRES = createCommonItemTag("wires");
@@ -51,7 +51,7 @@ public class ModCommonTags {
                 "iron", "copper"
         ));
 
-        // 所有矿石都是铁等级的元素（包括铁和铜的下界/末地矿石）
+        // 所有矿石都是铁等级的元素
         private static final Set<String> IRON_TOOL_ELEMENTS = new HashSet<>(Arrays.asList(
                 "gold",         // 金
                 "aluminum",     // 铝
@@ -91,7 +91,6 @@ public class ModCommonTags {
                 Block netherOre = ElementBlock.getNetherOre(elementName).get();
                 Block endOre = ElementBlock.getEndOre(elementName).get();
 
-                // ========== 1. 挖掘相关标签 ==========
                 // 所有方块都可被镐挖掘
                 pickaxeTag.add(block, rawBlock, ore, deepslateOre, netherOre, endOre);
 
@@ -110,7 +109,6 @@ public class ModCommonTags {
                     diamondToolTag.add(block, rawBlock, ore, deepslateOre, netherOre, endOre);
                 }
 
-                // ========== 2. Common Tags 标签 ==========
                 // 通用存储块标签 - c:storage_blocks
                 tag(Tags.Blocks.STORAGE_BLOCKS)
                         .add(block)
@@ -146,17 +144,52 @@ public class ModCommonTags {
                 tag(createCommonBlockTag("ores_in_ground/stone"))
                         .add(ore);
 
-                // 具体元素的深层矿石标签 - c:ores_in_ground/deepslate
+                // 具体元素的深层矿石标签
                 tag(createCommonBlockTag("ores_in_ground/deepslate"))
                         .add(deepslateOre);
 
-                // 具体元素的下界矿石标签 - c:ores_in_ground/netherrack
+                // 具体元素的下界矿石标签
                 tag(createCommonBlockTag("ores_in_ground/netherrack"))
                         .add(netherOre);
 
-                // 具体元素的末地矿石标签 - c:ores_in_ground/end_stone
+                // 具体元素的末地矿石标签
                 tag(createCommonBlockTag("ores_in_ground/end_stone"))
                         .add(endOre);
+            }
+
+            // 为 ELEMENT_ORES 数组的特殊矿石添加标签
+            for (Object[] oreElement : ElementBlock.ELEMENT_ORES) {
+                String oreName = ((String) oreElement[0]).toLowerCase();
+
+                // 普通矿石 - 名称就是 oreName 本身
+                pickaxeTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/" + oreName));
+                diamondToolTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/" + oreName));
+
+                // 深层矿石 - deepslate_ 前缀
+                pickaxeTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/deepslate_" + oreName));
+                diamondToolTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/deepslate_" + oreName));
+
+                // 下界矿石 - nether_ 前缀
+                pickaxeTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/nether_" + oreName));
+                diamondToolTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/nether_" + oreName));
+
+                // 末地矿石 - end_ 前缀
+                pickaxeTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/end_" + oreName));
+                diamondToolTag.addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/end_" + oreName));
+
+                // 矿石通用标签 - c:ores
+                tag(Tags.Blocks.ORES)
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/deepslate_" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/nether_" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/end_" + oreName));
+
+                // 具体元素的矿石标签 - c:ores/lepidolite
+                tag(createCommonBlockTag("ores/" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/deepslate_" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/nether_" + oreName))
+                        .addOptional(ResourceLocation.fromNamespaceAndPath(RedstonechanChemicalElements.MOD_ID, oreName + "/end_" + oreName));
             }
         }
     }

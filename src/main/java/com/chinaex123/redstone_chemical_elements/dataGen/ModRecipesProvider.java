@@ -47,28 +47,28 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
         Item netherOre = ElementBlock.getNetherOre(elementName).get().asItem();
         Item endOre = ElementBlock.getEndOre(elementName).get().asItem();
 
-        // 创建具体的元素标签（这些标签应该已经在ModCommonTags中定义了）
-        TagKey<Item> ingotTag = createCommonItemTag("ingots/" + elementName);  // c:ingots/iron
-        TagKey<Item> nuggetTag = createCommonItemTag("nuggets/" + elementName);  // c:nuggets/iron
-        TagKey<Item> rawMaterialTag = createCommonItemTag("raw_materials/" + elementName);  // c:raw_materials/iron
-        TagKey<Item> oreTag = createCommonItemTag("ores/" + elementName);  // c:ores/iron
+        // 具体的元素标签
+        TagKey<Item> ingotTag = createCommonItemTag("ingots/" + elementName);
+        TagKey<Item> nuggetTag = createCommonItemTag("nuggets/" + elementName);
+        TagKey<Item> rawMaterialTag = createCommonItemTag("raw_materials/" + elementName);
+        TagKey<Item> oreTag = createCommonItemTag("ores/" + elementName);
 
-        // 9个粒合成1个锭 - 使用具体元素的粒标签
+        // 9个粒合成1个锭
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ingot)
                 .pattern("NNN")
                 .pattern("NNN")
                 .pattern("NNN")
-                .define('N', nuggetTag)  // 使用具体元素的粒标签
+                .define('N', nuggetTag)
                 .unlockedBy("has_" + elementName + "_nugget", has(nuggetTag))
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_ingot_from_nuggets");
 
-        // 9个锭合成1个块 - 使用具体元素的锭标签
+        // 9个锭合成1个块
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, block)
                 .pattern("III")
                 .pattern("III")
                 .pattern("III")
-                .define('I', ingotTag)  // 使用具体元素的锭标签
+                .define('I', ingotTag)
                 .unlockedBy("has_" + elementName + "_ingot", has(ingotTag))
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_block_from_ingots");
@@ -87,12 +87,12 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_nuggets_from_ingot");
 
-        // 9个粗矿合成1个粗矿块 - 使用具体元素的粗矿标签
+        // 9个粗矿合成1个粗矿块
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, rawBlock)
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
-                .define('R', rawMaterialTag)  // 使用具体元素的粗矿标签
+                .define('R', rawMaterialTag)
                 .unlockedBy("has_raw_" + elementName, has(rawMaterialTag))
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/raw_" + elementName + "_block_from_items");
@@ -104,14 +104,14 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/raw_" + elementName + "_from_block");
 
-        // 烧炼配方 - 粗矿烧炼成锭 - 使用具体元素的粗矿标签
+        // 烧炼配方 - 粗矿烧炼成锭
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(rawMaterialTag),
                         RecipeCategory.MISC, ingot, 0.5f, 200)
                 .unlockedBy("has_raw_" + elementName, has(rawMaterialTag))
                 .save(recipeOutput,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_ingot_from_smelting_raw_" + elementName);
 
-        // 高炉烧炼 - 粗矿烧炼成锭 - 使用具体元素的粗矿标签
+        // 高炉烧炼 - 粗矿烧炼成锭
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(rawMaterialTag),
                         RecipeCategory.MISC, ingot, 1.0f, 100)
                 .unlockedBy("has_raw_" + elementName, has(rawMaterialTag))
@@ -123,7 +123,7 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
     }
 
     /**
-     * 为具体矿石添加烧炼配方（使用具体物品，作为备选）
+     * 为具体矿石添加烧炼配方
      */
     private void addSpecificOreSmeltingRecipes(String elementName, Item ingot, Item ore, Item deepslateOre, Item netherOre, Item endOre, RecipeOutput recipeOutput) {
         Item block = ElementBlock.getBlock(elementName).get().asItem();

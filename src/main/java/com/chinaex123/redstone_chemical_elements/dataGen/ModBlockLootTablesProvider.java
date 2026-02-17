@@ -27,6 +27,14 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
             // 直接生成所有方块战利品表
             generateAllBlockLoots(elementName);
         }
+
+        // 为 ELEMENT_ORES 数组的特殊矿石生成战利品表
+        for (Object[] oreElement : ElementBlock.ELEMENT_ORES) {
+            String oreName = ((String) oreElement[0]).toLowerCase();
+
+            // 特殊矿石直接掉落自身（不掉落粗矿）
+            generateSpecialOreLoots(oreName);
+        }
     }
 
     private void generateAllBlockLoots(String elementName) {
@@ -39,6 +47,18 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
         generateOreLoot(ElementBlock.getDeepslateOre(elementName), elementName);
         generateOreLoot(ElementBlock.getNetherOre(elementName), elementName);
         generateOreLoot(ElementBlock.getEndOre(elementName), elementName);
+    }
+
+    private void generateSpecialOreLoots(String oreName) {
+        // 为特殊矿石生成战利品表 - 直接掉落自身方块
+        // 普通矿石
+        this.dropSelf(ElementBlock.getOre(oreName).get());
+        // 深层矿石
+        this.dropSelf(ElementBlock.getDeepslateOre(oreName).get());
+        // 下界矿石
+        this.dropSelf(ElementBlock.getNetherOre(oreName).get());
+        // 末地矿石
+        this.dropSelf(ElementBlock.getEndOre(oreName).get());
     }
 
     private void generateOreLoot(DeferredBlock<Block> oreBlock, String elementName) {
@@ -63,6 +83,16 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
             allBlocks.add(ElementBlock.getDeepslateOre(elementName).get());
             allBlocks.add(ElementBlock.getNetherOre(elementName).get());
             allBlocks.add(ElementBlock.getEndOre(elementName).get());
+        }
+
+        // ELEMENT_ORES 的特殊矿石方块
+        for (Object[] oreElement : ElementBlock.ELEMENT_ORES) {
+            String oreName = ((String) oreElement[0]).toLowerCase();
+
+            allBlocks.add(ElementBlock.getOre(oreName).get());
+            allBlocks.add(ElementBlock.getDeepslateOre(oreName).get());
+            allBlocks.add(ElementBlock.getNetherOre(oreName).get());
+            allBlocks.add(ElementBlock.getEndOre(oreName).get());
         }
 
         return allBlocks;

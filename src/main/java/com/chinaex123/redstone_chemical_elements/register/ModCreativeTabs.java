@@ -1,8 +1,6 @@
 package com.chinaex123.redstone_chemical_elements.register;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
-import com.chinaex123.redstone_chemical_elements.register.ModItems.ElementItem;
-import com.chinaex123.redstone_chemical_elements.register.ModBlocks.ElementBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

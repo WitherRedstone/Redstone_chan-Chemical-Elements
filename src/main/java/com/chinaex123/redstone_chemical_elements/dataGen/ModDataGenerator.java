@@ -1,8 +1,6 @@
-package com.chinaex123.redstone_chemical_elements;
+package com.chinaex123.redstone_chemical_elements.dataGen;
 
-import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockLootTablesProvider;
-import com.chinaex123.redstone_chemical_elements.dataGen.ModBlockTagsProvider;
-import com.chinaex123.redstone_chemical_elements.dataGen.ModRecipesProvider;
+import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

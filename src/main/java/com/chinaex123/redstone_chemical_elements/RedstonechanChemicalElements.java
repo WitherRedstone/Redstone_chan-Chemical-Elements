@@ -1,8 +1,8 @@
 package com.chinaex123.redstone_chemical_elements;
 
-import com.chinaex123.redstone_chemical_elements.register.ModBlocks.ElementBlock;
+import com.chinaex123.redstone_chemical_elements.register.ElementBlock;
 import com.chinaex123.redstone_chemical_elements.register.ModCreativeTabs;
-import com.chinaex123.redstone_chemical_elements.register.ModItems.ElementItem;
+import com.chinaex123.redstone_chemical_elements.register.ElementItem;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

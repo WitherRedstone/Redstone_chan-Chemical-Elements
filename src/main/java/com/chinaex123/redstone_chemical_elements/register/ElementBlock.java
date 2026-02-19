@@ -1,7 +1,6 @@
-package com.chinaex123.redstone_chemical_elements.register.ModBlocks;
+package com.chinaex123.redstone_chemical_elements.register;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
-import com.chinaex123.redstone_chemical_elements.register.ModItems.ElementItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

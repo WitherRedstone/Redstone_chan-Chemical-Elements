@@ -1,4 +1,4 @@
-package com.chinaex123.redstone_chemical_elements.register.ModItems;
+package com.chinaex123.redstone_chemical_elements.register;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
 import net.minecraft.world.item.Item;

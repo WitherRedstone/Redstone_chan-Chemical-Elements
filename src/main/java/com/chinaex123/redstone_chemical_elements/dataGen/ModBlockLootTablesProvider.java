@@ -1,7 +1,7 @@
 package com.chinaex123.redstone_chemical_elements.dataGen;
 
-import com.chinaex123.redstone_chemical_elements.register.ModBlocks.ElementBlock;
-import com.chinaex123.redstone_chemical_elements.register.ModItems.ElementItem;
+import com.chinaex123.redstone_chemical_elements.register.ElementBlock;
+import com.chinaex123.redstone_chemical_elements.register.ElementItem;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;

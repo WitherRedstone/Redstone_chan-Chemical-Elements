@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:cobaltite/cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/deepslate_cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/nether_cobaltite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cobaltite/end_cobaltite",
+      "required": false
+    }
+  ]
+}

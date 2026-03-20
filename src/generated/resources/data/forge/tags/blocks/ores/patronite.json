@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:patronite/patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/deepslate_patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/nether_patronite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:patronite/end_patronite",
+      "required": false
+    }
+  ]
+}

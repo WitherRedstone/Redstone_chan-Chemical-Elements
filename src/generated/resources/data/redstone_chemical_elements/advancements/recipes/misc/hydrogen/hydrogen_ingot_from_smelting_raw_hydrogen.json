@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_hydrogen": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/hydrogen"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:hydrogen/hydrogen_ingot_from_smelting_raw_hydrogen"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_hydrogen",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:hydrogen/hydrogen_ingot_from_smelting_raw_hydrogen"
+    ]
+  },
+  "sends_telemetry_event": false
+}

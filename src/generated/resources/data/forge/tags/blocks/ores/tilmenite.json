@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:tilmenite/tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/deepslate_tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/nether_tilmenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:tilmenite/end_tilmenite",
+      "required": false
+    }
+  ]
+}

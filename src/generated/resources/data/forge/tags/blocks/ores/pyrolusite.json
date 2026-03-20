@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:pyrolusite/pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/deepslate_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/nether_pyrolusite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrolusite/end_pyrolusite",
+      "required": false
+    }
+  ]
+}

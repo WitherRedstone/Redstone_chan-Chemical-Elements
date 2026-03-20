@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:carnallite/carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/deepslate_carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/nether_carnallite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:carnallite/end_carnallite",
+      "required": false
+    }
+  ]
+}

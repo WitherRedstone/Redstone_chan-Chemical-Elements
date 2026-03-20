@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:rhodium/rhodium_ore",
+    "redstone_chemical_elements:rhodium/deepslate_rhodium_ore",
+    "redstone_chemical_elements:rhodium/nether_rhodium_ore",
+    "redstone_chemical_elements:rhodium/end_rhodium_ore"
+  ]
+}

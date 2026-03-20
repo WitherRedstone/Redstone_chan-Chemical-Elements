@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:copper/copper_ore",
+    "redstone_chemical_elements:copper/deepslate_copper_ore",
+    "redstone_chemical_elements:copper/nether_copper_ore",
+    "redstone_chemical_elements:copper/end_copper_ore"
+  ]
+}

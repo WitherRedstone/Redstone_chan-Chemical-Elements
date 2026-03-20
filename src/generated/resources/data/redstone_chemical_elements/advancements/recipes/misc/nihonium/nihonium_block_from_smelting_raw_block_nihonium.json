@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_nihonium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:nihonium/raw_nihonium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:nihonium/nihonium_block_from_smelting_raw_block_nihonium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_nihonium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:nihonium/nihonium_block_from_smelting_raw_block_nihonium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

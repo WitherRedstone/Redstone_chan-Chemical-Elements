@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_arsenic": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/arsenic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:arsenic/arsenic_ingot_from_smelting_raw_arsenic"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_arsenic",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:arsenic/arsenic_ingot_from_smelting_raw_arsenic"
+    ]
+  },
+  "sends_telemetry_event": false
+}

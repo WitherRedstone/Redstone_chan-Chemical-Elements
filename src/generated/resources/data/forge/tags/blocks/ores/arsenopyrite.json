@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/deepslate_arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/nether_arsenopyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:arsenopyrite/end_arsenopyrite",
+      "required": false
+    }
+  ]
+}

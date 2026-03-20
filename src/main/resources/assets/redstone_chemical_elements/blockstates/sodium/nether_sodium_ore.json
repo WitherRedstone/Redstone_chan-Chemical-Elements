@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/sodium/nether_sodium_ore" 
+    } 
+  } 
+} 

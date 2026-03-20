@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:radon/radon_ore",
+    "redstone_chemical_elements:radon/deepslate_radon_ore",
+    "redstone_chemical_elements:radon/nether_radon_ore",
+    "redstone_chemical_elements:radon/end_radon_ore"
+  ]
+}

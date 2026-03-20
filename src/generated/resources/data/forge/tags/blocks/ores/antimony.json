@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:antimony/antimony_ore",
+    "redstone_chemical_elements:antimony/deepslate_antimony_ore",
+    "redstone_chemical_elements:antimony/nether_antimony_ore",
+    "redstone_chemical_elements:antimony/end_antimony_ore"
+  ]
+}

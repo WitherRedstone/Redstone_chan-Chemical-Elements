@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_radon_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:radon/raw_radon_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:radon/radon_block_from_smelting_raw_block_radon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_radon_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:radon/radon_block_from_smelting_raw_block_radon"
+    ]
+  },
+  "sends_telemetry_event": false
+}

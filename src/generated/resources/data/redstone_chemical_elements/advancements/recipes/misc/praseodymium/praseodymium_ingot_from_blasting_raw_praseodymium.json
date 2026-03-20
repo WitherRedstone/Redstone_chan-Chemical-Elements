@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_praseodymium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/praseodymium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:praseodymium/praseodymium_ingot_from_blasting_raw_praseodymium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_praseodymium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:praseodymium/praseodymium_ingot_from_blasting_raw_praseodymium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

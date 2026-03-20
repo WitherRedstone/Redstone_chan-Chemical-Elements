@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:thortveitite/thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/deepslate_thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/nether_thortveitite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:thortveitite/end_thortveitite",
+      "required": false
+    }
+  ]
+}

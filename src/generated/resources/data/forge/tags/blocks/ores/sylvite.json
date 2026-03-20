@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:sylvite/sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/deepslate_sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/nether_sylvite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:sylvite/end_sylvite",
+      "required": false
+    }
+  ]
+}

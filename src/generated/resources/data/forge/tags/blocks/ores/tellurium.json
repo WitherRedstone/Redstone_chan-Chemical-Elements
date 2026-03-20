@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:tellurium/tellurium_ore",
+    "redstone_chemical_elements:tellurium/deepslate_tellurium_ore",
+    "redstone_chemical_elements:tellurium/nether_tellurium_ore",
+    "redstone_chemical_elements:tellurium/end_tellurium_ore"
+  ]
+}

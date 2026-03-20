@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:bromine/bromine_ore",
+    "redstone_chemical_elements:bromine/deepslate_bromine_ore",
+    "redstone_chemical_elements:bromine/nether_bromine_ore",
+    "redstone_chemical_elements:bromine/end_bromine_ore"
+  ]
+}

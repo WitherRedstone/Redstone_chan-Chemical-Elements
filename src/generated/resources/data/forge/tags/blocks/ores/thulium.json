@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:thulium/thulium_ore",
+    "redstone_chemical_elements:thulium/deepslate_thulium_ore",
+    "redstone_chemical_elements:thulium/nether_thulium_ore",
+    "redstone_chemical_elements:thulium/end_thulium_ore"
+  ]
+}

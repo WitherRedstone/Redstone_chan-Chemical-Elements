@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 900,
+  "experience": 8.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:californium/raw_californium_block"
+  },
+  "result": "redstone_chemical_elements:californium/californium_block"
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:indium/indium_ore",
+    "redstone_chemical_elements:indium/deepslate_indium_ore",
+    "redstone_chemical_elements:indium/nether_indium_ore",
+    "redstone_chemical_elements:indium/end_indium_ore"
+  ]
+}

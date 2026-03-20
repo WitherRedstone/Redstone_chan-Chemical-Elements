@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:mendelevium/mendelevium_ore",
+    "redstone_chemical_elements:mendelevium/deepslate_mendelevium_ore",
+    "redstone_chemical_elements:mendelevium/nether_mendelevium_ore",
+    "redstone_chemical_elements:mendelevium/end_mendelevium_ore"
+  ]
+}

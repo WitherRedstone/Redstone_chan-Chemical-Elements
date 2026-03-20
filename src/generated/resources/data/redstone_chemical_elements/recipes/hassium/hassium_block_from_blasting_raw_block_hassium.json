@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 900,
+  "experience": 8.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:hassium/raw_hassium_block"
+  },
+  "result": "redstone_chemical_elements:hassium/hassium_block"
+}

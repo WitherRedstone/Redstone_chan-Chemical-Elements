@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:plutonium/plutonium_ore",
+    "redstone_chemical_elements:plutonium/deepslate_plutonium_ore",
+    "redstone_chemical_elements:plutonium/nether_plutonium_ore",
+    "redstone_chemical_elements:plutonium/end_plutonium_ore"
+  ]
+}

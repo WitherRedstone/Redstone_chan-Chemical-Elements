@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "redstone_chemical_elements:tantalum/tantalum_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "redstone_chemical_elements:tantalum/tantalum_nugget"
+  }
+}

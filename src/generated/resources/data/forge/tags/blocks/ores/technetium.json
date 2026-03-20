@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:technetium/technetium_ore",
+    "redstone_chemical_elements:technetium/deepslate_technetium_ore",
+    "redstone_chemical_elements:technetium/nether_technetium_ore",
+    "redstone_chemical_elements:technetium/end_technetium_ore"
+  ]
+}

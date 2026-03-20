@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:longium/longium_ore",
+    "redstone_chemical_elements:longium/deepslate_longium_ore",
+    "redstone_chemical_elements:longium/nether_longium_ore",
+    "redstone_chemical_elements:longium/end_longium_ore"
+  ]
+}

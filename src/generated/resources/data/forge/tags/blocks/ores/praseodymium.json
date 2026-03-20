@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:praseodymium/praseodymium_ore",
+    "redstone_chemical_elements:praseodymium/deepslate_praseodymium_ore",
+    "redstone_chemical_elements:praseodymium/nether_praseodymium_ore",
+    "redstone_chemical_elements:praseodymium/end_praseodymium_ore"
+  ]
+}

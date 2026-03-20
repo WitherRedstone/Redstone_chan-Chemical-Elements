@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:lepidolite/lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/deepslate_lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/nether_lepidolite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:lepidolite/end_lepidolite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:yttrium/yttrium_ore",
+    "redstone_chemical_elements:yttrium/deepslate_yttrium_ore",
+    "redstone_chemical_elements:yttrium/nether_yttrium_ore",
+    "redstone_chemical_elements:yttrium/end_yttrium_ore"
+  ]
+}

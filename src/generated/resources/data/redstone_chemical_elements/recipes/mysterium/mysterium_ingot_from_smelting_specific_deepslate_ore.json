@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:mysterium/deepslate_mysterium_ore"
+  },
+  "result": "redstone_chemical_elements:mysterium/mysterium_ingot"
+}

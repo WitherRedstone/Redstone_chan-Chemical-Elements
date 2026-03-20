@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:osmium/deepslate_osmium_ore"
+  },
+  "result": "redstone_chemical_elements:osmium/osmium_ingot"
+}

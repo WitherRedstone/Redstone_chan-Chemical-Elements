@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:monazite/monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/deepslate_monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/nether_monazite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:monazite/end_monazite",
+      "required": false
+    }
+  ]
+}

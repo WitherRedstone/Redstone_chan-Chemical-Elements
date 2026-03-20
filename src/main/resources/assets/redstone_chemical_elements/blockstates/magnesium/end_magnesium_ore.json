@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/magnesium/end_magnesium_ore" 
+    } 
+  } 
+} 

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:niobium/niobium_ore",
+    "redstone_chemical_elements:niobium/deepslate_niobium_ore",
+    "redstone_chemical_elements:niobium/nether_niobium_ore",
+    "redstone_chemical_elements:niobium/end_niobium_ore"
+  ]
+}

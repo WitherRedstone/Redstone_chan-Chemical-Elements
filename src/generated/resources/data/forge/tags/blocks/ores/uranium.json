@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:uranium/uranium_ore",
+    "redstone_chemical_elements:uranium/deepslate_uranium_ore",
+    "redstone_chemical_elements:uranium/nether_uranium_ore",
+    "redstone_chemical_elements:uranium/end_uranium_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:nitrogen/nitrogen_ore",
+    "redstone_chemical_elements:nitrogen/deepslate_nitrogen_ore",
+    "redstone_chemical_elements:nitrogen/nether_nitrogen_ore",
+    "redstone_chemical_elements:nitrogen/end_nitrogen_ore"
+  ]
+}

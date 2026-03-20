@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:hydrargyrum/hydrargyrum_ore",
+    "redstone_chemical_elements:hydrargyrum/deepslate_hydrargyrum_ore",
+    "redstone_chemical_elements:hydrargyrum/nether_hydrargyrum_ore",
+    "redstone_chemical_elements:hydrargyrum/end_hydrargyrum_ore"
+  ]
+}

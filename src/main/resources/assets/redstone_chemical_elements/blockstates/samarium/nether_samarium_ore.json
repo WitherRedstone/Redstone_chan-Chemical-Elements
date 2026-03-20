@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/samarium/nether_samarium_ore" 
+    } 
+  } 
+} 

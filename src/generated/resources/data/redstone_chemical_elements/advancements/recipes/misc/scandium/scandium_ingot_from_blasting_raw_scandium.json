@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_scandium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/scandium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:scandium/scandium_ingot_from_blasting_raw_scandium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_scandium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:scandium/scandium_ingot_from_blasting_raw_scandium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

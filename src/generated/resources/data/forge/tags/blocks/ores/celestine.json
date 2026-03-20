@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:celestine/celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/deepslate_celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/nether_celestine",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:celestine/end_celestine",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_darmstadtium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/darmstadtium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:darmstadtium/darmstadtium_ingot_from_blasting_raw_darmstadtium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_darmstadtium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:darmstadtium/darmstadtium_ingot_from_blasting_raw_darmstadtium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

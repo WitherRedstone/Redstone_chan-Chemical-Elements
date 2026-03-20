@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/mysterium/end_mysterium_ore" 
+    } 
+  } 
+} 

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_oxygen_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:oxygen/nether_oxygen_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:oxygen/oxygen_ingot_from_blasting_specific_nether_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_oxygen_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:oxygen/oxygen_ingot_from_blasting_specific_nether_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

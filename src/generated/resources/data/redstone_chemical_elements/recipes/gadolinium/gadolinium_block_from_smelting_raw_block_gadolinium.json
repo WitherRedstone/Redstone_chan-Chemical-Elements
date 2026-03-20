@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 1800,
+  "experience": 4.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:gadolinium/raw_gadolinium_block"
+  },
+  "result": "redstone_chemical_elements:gadolinium/gadolinium_block"
+}

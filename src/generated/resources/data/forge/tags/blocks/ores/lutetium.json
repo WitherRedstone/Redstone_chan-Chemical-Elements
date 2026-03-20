@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:lutetium/lutetium_ore",
+    "redstone_chemical_elements:lutetium/deepslate_lutetium_ore",
+    "redstone_chemical_elements:lutetium/nether_lutetium_ore",
+    "redstone_chemical_elements:lutetium/end_lutetium_ore"
+  ]
+}

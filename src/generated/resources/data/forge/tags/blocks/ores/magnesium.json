@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:magnesium/magnesium_ore",
+    "redstone_chemical_elements:magnesium/deepslate_magnesium_ore",
+    "redstone_chemical_elements:magnesium/nether_magnesium_ore",
+    "redstone_chemical_elements:magnesium/end_magnesium_ore"
+  ]
+}

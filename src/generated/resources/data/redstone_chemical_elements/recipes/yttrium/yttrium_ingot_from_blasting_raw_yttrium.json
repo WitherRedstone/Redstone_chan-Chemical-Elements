@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "tag": "forge:raw_materials/yttrium"
+  },
+  "result": "redstone_chemical_elements:yttrium/yttrium_ingot"
+}

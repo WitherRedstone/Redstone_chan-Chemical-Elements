@@ -1,0 +1,6 @@
+{ 
+  "parent": "block/cube_all", 
+  "textures": { 
+    "all": "redstone_chemical_elements:block/osmium/raw_osmium_block" 
+  } 
+} 

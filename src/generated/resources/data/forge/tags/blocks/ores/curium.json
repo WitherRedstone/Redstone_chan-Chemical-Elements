@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:curium/curium_ore",
+    "redstone_chemical_elements:curium/deepslate_curium_ore",
+    "redstone_chemical_elements:curium/nether_curium_ore",
+    "redstone_chemical_elements:curium/end_curium_ore"
+  ]
+}

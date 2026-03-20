@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:scandium/scandium_ore",
+    "redstone_chemical_elements:scandium/deepslate_scandium_ore",
+    "redstone_chemical_elements:scandium/nether_scandium_ore",
+    "redstone_chemical_elements:scandium/end_scandium_ore"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:thulium/thulium_ingots_from_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_thulium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:thulium/thulium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_thulium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:thulium/thulium_ingots_from_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

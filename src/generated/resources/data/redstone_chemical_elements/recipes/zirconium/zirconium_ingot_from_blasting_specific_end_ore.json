@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:zirconium/end_zirconium_ore"
+  },
+  "result": "redstone_chemical_elements:zirconium/zirconium_ingot"
+}

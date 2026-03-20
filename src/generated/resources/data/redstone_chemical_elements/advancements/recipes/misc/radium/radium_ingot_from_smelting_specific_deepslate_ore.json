@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_radium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:radium/deepslate_radium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:radium/radium_ingot_from_smelting_specific_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_radium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:radium/radium_ingot_from_smelting_specific_deepslate_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

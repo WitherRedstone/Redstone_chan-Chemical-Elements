@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_hydrargyrum": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/hydrargyrum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:hydrargyrum/hydrargyrum_ingot_from_blasting_raw_hydrargyrum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_hydrargyrum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:hydrargyrum/hydrargyrum_ingot_from_blasting_raw_hydrargyrum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:lithium/lithium_ore",
+    "redstone_chemical_elements:lithium/deepslate_lithium_ore",
+    "redstone_chemical_elements:lithium/nether_lithium_ore",
+    "redstone_chemical_elements:lithium/end_lithium_ore"
+  ]
+}

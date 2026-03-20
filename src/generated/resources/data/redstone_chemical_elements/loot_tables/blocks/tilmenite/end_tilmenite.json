@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "redstone_chemical_elements:tilmenite/end_tilmenite"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "redstone_chemical_elements:blocks/tilmenite/end_tilmenite"
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:berkelium/berkelium_ore",
+    "redstone_chemical_elements:berkelium/deepslate_berkelium_ore",
+    "redstone_chemical_elements:berkelium/nether_berkelium_ore",
+    "redstone_chemical_elements:berkelium/end_berkelium_ore"
+  ]
+}

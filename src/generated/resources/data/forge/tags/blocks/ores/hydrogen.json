@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:hydrogen/hydrogen_ore",
+    "redstone_chemical_elements:hydrogen/deepslate_hydrogen_ore",
+    "redstone_chemical_elements:hydrogen/nether_hydrogen_ore",
+    "redstone_chemical_elements:hydrogen/end_hydrogen_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:bismuth/bismuth_ore",
+    "redstone_chemical_elements:bismuth/deepslate_bismuth_ore",
+    "redstone_chemical_elements:bismuth/nether_bismuth_ore",
+    "redstone_chemical_elements:bismuth/end_bismuth_ore"
+  ]
+}

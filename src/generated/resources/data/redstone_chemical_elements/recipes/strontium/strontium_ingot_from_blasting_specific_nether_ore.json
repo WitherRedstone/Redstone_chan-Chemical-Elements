@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:strontium/nether_strontium_ore"
+  },
+  "result": "redstone_chemical_elements:strontium/strontium_ingot"
+}

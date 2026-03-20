@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:platinum/platinum_ore",
+    "redstone_chemical_elements:platinum/deepslate_platinum_ore",
+    "redstone_chemical_elements:platinum/nether_platinum_ore",
+    "redstone_chemical_elements:platinum/end_platinum_ore"
+  ]
+}

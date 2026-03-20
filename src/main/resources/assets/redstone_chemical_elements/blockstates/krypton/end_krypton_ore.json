@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/krypton/end_krypton_ore" 
+    } 
+  } 
+} 

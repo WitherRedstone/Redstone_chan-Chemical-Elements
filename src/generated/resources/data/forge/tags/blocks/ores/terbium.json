@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:terbium/terbium_ore",
+    "redstone_chemical_elements:terbium/deepslate_terbium_ore",
+    "redstone_chemical_elements:terbium/nether_terbium_ore",
+    "redstone_chemical_elements:terbium/end_terbium_ore"
+  ]
+}

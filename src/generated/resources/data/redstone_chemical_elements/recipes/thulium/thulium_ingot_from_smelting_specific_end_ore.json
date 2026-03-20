@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:thulium/end_thulium_ore"
+  },
+  "result": "redstone_chemical_elements:thulium/thulium_ingot"
+}

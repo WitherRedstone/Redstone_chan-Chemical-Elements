@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:niobite/niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/deepslate_niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/nether_niobite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:niobite/end_niobite",
+      "required": false
+    }
+  ]
+}

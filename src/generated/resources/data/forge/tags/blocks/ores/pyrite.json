@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:pyrite/pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/deepslate_pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/nether_pyrite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pyrite/end_pyrite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:oganesson/oganesson_ore",
+    "redstone_chemical_elements:oganesson/deepslate_oganesson_ore",
+    "redstone_chemical_elements:oganesson/nether_oganesson_ore",
+    "redstone_chemical_elements:oganesson/end_oganesson_ore"
+  ]
+}

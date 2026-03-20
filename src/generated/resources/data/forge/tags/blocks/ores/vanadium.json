@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:vanadium/vanadium_ore",
+    "redstone_chemical_elements:vanadium/deepslate_vanadium_ore",
+    "redstone_chemical_elements:vanadium/nether_vanadium_ore",
+    "redstone_chemical_elements:vanadium/end_vanadium_ore"
+  ]
+}

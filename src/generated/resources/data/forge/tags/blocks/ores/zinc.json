@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:zinc/zinc_ore",
+    "redstone_chemical_elements:zinc/deepslate_zinc_ore",
+    "redstone_chemical_elements:zinc/nether_zinc_ore",
+    "redstone_chemical_elements:zinc/end_zinc_ore"
+  ]
+}

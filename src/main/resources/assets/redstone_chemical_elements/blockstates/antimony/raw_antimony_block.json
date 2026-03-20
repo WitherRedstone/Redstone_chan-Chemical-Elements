@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/antimony/raw_antimony_block" 
+    } 
+  } 
+} 

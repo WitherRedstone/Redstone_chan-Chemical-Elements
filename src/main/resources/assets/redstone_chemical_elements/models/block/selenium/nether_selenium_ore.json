@@ -1,0 +1,6 @@
+{ 
+  "parent": "block/cube_all", 
+  "textures": { 
+    "all": "redstone_chemical_elements:block/selenium/nether_selenium_ore" 
+  } 
+} 

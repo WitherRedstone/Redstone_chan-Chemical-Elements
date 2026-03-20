@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:livermorium/livermorium_ore",
+    "redstone_chemical_elements:livermorium/deepslate_livermorium_ore",
+    "redstone_chemical_elements:livermorium/nether_livermorium_ore",
+    "redstone_chemical_elements:livermorium/end_livermorium_ore"
+  ]
+}

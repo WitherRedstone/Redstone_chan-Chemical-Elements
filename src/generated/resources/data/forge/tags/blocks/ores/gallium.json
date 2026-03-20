@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:gallium/gallium_ore",
+    "redstone_chemical_elements:gallium/deepslate_gallium_ore",
+    "redstone_chemical_elements:gallium/nether_gallium_ore",
+    "redstone_chemical_elements:gallium/end_gallium_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:darmstadtium/darmstadtium_ore",
+    "redstone_chemical_elements:darmstadtium/deepslate_darmstadtium_ore",
+    "redstone_chemical_elements:darmstadtium/nether_darmstadtium_ore",
+    "redstone_chemical_elements:darmstadtium/end_darmstadtium_ore"
+  ]
+}

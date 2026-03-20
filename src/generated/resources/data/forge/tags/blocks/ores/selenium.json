@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:selenium/selenium_ore",
+    "redstone_chemical_elements:selenium/deepslate_selenium_ore",
+    "redstone_chemical_elements:selenium/nether_selenium_ore",
+    "redstone_chemical_elements:selenium/end_selenium_ore"
+  ]
+}

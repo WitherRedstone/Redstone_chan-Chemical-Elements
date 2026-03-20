@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:cinnabar/cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/deepslate_cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/nether_cinnabar",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:cinnabar/end_cinnabar",
+      "required": false
+    }
+  ]
+}

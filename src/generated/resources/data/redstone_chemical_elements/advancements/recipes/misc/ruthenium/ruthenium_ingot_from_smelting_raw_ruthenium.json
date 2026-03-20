@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_ruthenium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/ruthenium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:ruthenium/ruthenium_ingot_from_smelting_raw_ruthenium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_ruthenium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:ruthenium/ruthenium_ingot_from_smelting_raw_ruthenium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

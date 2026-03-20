@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:francium/francium_ore",
+    "redstone_chemical_elements:francium/deepslate_francium_ore",
+    "redstone_chemical_elements:francium/nether_francium_ore",
+    "redstone_chemical_elements:francium/end_francium_ore"
+  ]
+}

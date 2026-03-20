@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:nitre/nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/deepslate_nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/nether_nitre",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:nitre/end_nitre",
+      "required": false
+    }
+  ]
+}

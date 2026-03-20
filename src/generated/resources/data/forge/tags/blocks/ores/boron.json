@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:boron/boron_ore",
+    "redstone_chemical_elements:boron/deepslate_boron_ore",
+    "redstone_chemical_elements:boron/nether_boron_ore",
+    "redstone_chemical_elements:boron/end_boron_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:moscovium/moscovium_ore",
+    "redstone_chemical_elements:moscovium/deepslate_moscovium_ore",
+    "redstone_chemical_elements:moscovium/nether_moscovium_ore",
+    "redstone_chemical_elements:moscovium/end_moscovium_ore"
+  ]
+}

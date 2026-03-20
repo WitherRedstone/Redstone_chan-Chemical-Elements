@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:sodium/deepslate_sodium_ore"
+  },
+  "result": "redstone_chemical_elements:sodium/sodium_ingot"
+}

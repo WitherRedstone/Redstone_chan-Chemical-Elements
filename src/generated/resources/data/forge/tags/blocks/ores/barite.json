@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:barite/barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/deepslate_barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/nether_barite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:barite/end_barite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "tag": "forge:raw_materials/copernicium"
+  },
+  "result": "redstone_chemical_elements:copernicium/copernicium_ingot"
+}

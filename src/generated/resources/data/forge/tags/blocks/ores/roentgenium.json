@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:roentgenium/roentgenium_ore",
+    "redstone_chemical_elements:roentgenium/deepslate_roentgenium_ore",
+    "redstone_chemical_elements:roentgenium/nether_roentgenium_ore",
+    "redstone_chemical_elements:roentgenium/end_roentgenium_ore"
+  ]
+}

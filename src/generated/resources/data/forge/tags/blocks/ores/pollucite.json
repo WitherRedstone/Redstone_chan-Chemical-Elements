@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:pollucite/pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/deepslate_pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/nether_pollucite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:pollucite/end_pollucite",
+      "required": false
+    }
+  ]
+}

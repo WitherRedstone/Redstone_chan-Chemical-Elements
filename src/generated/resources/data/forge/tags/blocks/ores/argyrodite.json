@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:argyrodite/argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/deepslate_argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/nether_argyrodite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:argyrodite/end_argyrodite",
+      "required": false
+    }
+  ]
+}

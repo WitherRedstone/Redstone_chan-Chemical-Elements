@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:rhenium/rhenium_ore",
+    "redstone_chemical_elements:rhenium/deepslate_rhenium_ore",
+    "redstone_chemical_elements:rhenium/nether_rhenium_ore",
+    "redstone_chemical_elements:rhenium/end_rhenium_ore"
+  ]
+}

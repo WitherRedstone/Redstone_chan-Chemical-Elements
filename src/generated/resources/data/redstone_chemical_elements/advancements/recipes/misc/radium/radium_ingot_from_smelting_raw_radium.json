@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_radium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/radium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:radium/radium_ingot_from_smelting_raw_radium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_radium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:radium/radium_ingot_from_smelting_raw_radium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

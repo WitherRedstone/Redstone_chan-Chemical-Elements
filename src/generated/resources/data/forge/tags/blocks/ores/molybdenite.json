@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:molybdenite/molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/deepslate_molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/nether_molybdenite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:molybdenite/end_molybdenite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 1800,
+  "experience": 4.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:neptunium/raw_neptunium_block"
+  },
+  "result": "redstone_chemical_elements:neptunium/neptunium_block"
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:neon/neon_ore",
+    "redstone_chemical_elements:neon/deepslate_neon_ore",
+    "redstone_chemical_elements:neon/nether_neon_ore",
+    "redstone_chemical_elements:neon/end_neon_ore"
+  ]
+}

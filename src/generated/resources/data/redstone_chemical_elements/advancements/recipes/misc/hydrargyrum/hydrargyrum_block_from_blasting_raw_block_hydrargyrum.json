@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_hydrargyrum_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_chemical_elements:hydrargyrum/raw_hydrargyrum_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:hydrargyrum/hydrargyrum_block_from_blasting_raw_block_hydrargyrum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_hydrargyrum_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:hydrargyrum/hydrargyrum_block_from_blasting_raw_block_hydrargyrum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

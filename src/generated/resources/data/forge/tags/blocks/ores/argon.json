@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:argon/argon_ore",
+    "redstone_chemical_elements:argon/deepslate_argon_ore",
+    "redstone_chemical_elements:argon/nether_argon_ore",
+    "redstone_chemical_elements:argon/end_argon_ore"
+  ]
+}

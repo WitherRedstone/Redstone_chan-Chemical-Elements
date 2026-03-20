@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:silver/silver_ore",
+    "redstone_chemical_elements:silver/deepslate_silver_ore",
+    "redstone_chemical_elements:silver/nether_silver_ore",
+    "redstone_chemical_elements:silver/end_silver_ore"
+  ]
+}

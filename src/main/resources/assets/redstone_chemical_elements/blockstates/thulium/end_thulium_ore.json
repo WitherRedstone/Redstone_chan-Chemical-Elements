@@ -1,0 +1,7 @@
+{ 
+  "variants": { 
+    "": { 
+      "model": "redstone_chemical_elements:block/thulium/end_thulium_ore" 
+    } 
+  } 
+} 

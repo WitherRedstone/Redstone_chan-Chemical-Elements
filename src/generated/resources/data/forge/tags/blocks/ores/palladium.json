@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:palladium/palladium_ore",
+    "redstone_chemical_elements:palladium/deepslate_palladium_ore",
+    "redstone_chemical_elements:palladium/nether_palladium_ore",
+    "redstone_chemical_elements:palladium/end_palladium_ore"
+  ]
+}

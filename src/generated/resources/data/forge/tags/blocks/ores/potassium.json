@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:potassium/potassium_ore",
+    "redstone_chemical_elements:potassium/deepslate_potassium_ore",
+    "redstone_chemical_elements:potassium/nether_potassium_ore",
+    "redstone_chemical_elements:potassium/end_potassium_ore"
+  ]
+}

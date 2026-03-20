@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_mysterium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/mysterium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:mysterium/mysterium_ingot_from_blasting_raw_mysterium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_mysterium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:mysterium/mysterium_ingot_from_blasting_raw_mysterium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

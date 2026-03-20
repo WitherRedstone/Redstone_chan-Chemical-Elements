@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "tag": "forge:raw_materials/curium"
+  },
+  "result": "redstone_chemical_elements:curium/curium_ingot"
+}

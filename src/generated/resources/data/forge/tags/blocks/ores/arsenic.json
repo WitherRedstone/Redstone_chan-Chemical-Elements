@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:arsenic/arsenic_ore",
+    "redstone_chemical_elements:arsenic/deepslate_arsenic_ore",
+    "redstone_chemical_elements:arsenic/nether_arsenic_ore",
+    "redstone_chemical_elements:arsenic/end_arsenic_ore"
+  ]
+}

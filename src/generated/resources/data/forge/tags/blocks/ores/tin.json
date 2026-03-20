@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:tin/tin_ore",
+    "redstone_chemical_elements:tin/deepslate_tin_ore",
+    "redstone_chemical_elements:tin/nether_tin_ore",
+    "redstone_chemical_elements:tin/end_tin_ore"
+  ]
+}

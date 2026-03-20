@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:stibnite/stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/deepslate_stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/nether_stibnite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:stibnite/end_stibnite",
+      "required": false
+    }
+  ]
+}

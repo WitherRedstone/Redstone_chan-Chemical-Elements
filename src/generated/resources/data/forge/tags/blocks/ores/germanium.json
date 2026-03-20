@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:germanium/germanium_ore",
+    "redstone_chemical_elements:germanium/deepslate_germanium_ore",
+    "redstone_chemical_elements:germanium/nether_germanium_ore",
+    "redstone_chemical_elements:germanium/end_germanium_ore"
+  ]
+}

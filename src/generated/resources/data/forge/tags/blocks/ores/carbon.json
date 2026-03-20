@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:carbon/carbon_ore",
+    "redstone_chemical_elements:carbon/deepslate_carbon_ore",
+    "redstone_chemical_elements:carbon/nether_carbon_ore",
+    "redstone_chemical_elements:carbon/end_carbon_ore"
+  ]
+}

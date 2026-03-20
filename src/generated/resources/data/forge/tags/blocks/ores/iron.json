@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:iron/iron_ore",
+    "redstone_chemical_elements:iron/deepslate_iron_ore",
+    "redstone_chemical_elements:iron/nether_iron_ore",
+    "redstone_chemical_elements:iron/end_iron_ore"
+  ]
+}

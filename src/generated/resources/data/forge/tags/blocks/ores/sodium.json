@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:sodium/sodium_ore",
+    "redstone_chemical_elements:sodium/deepslate_sodium_ore",
+    "redstone_chemical_elements:sodium/nether_sodium_ore",
+    "redstone_chemical_elements:sodium/end_sodium_ore"
+  ]
+}

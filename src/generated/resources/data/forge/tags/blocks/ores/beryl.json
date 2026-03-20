@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:beryl/beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/deepslate_beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/nether_beryl",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:beryl/end_beryl",
+      "required": false
+    }
+  ]
+}

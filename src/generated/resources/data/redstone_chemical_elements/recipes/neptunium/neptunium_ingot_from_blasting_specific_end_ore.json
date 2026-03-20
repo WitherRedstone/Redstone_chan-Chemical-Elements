@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:neptunium/end_neptunium_ore"
+  },
+  "result": "redstone_chemical_elements:neptunium/neptunium_ingot"
+}

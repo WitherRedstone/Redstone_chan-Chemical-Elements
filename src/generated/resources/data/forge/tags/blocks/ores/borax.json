@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:borax/borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/deepslate_borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/nether_borax",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:borax/end_borax",
+      "required": false
+    }
+  ]
+}

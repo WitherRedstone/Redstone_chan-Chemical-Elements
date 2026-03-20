@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:lawrencium/lawrencium_ore",
+    "redstone_chemical_elements:lawrencium/deepslate_lawrencium_ore",
+    "redstone_chemical_elements:lawrencium/nether_lawrencium_ore",
+    "redstone_chemical_elements:lawrencium/end_lawrencium_ore"
+  ]
+}

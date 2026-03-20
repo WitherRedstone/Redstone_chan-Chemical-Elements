@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:zircon/zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/deepslate_zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/nether_zircon",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:zircon/end_zircon",
+      "required": false
+    }
+  ]
+}

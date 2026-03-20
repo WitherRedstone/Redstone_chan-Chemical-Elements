@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:einsteinium/einsteinium_ore",
+    "redstone_chemical_elements:einsteinium/deepslate_einsteinium_ore",
+    "redstone_chemical_elements:einsteinium/nether_einsteinium_ore",
+    "redstone_chemical_elements:einsteinium/end_einsteinium_ore"
+  ]
+}

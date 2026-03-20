@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:chromite/chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/deepslate_chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/nether_chromite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:chromite/end_chromite",
+      "required": false
+    }
+  ]
+}

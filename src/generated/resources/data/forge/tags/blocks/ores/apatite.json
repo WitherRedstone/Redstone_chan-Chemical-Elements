@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "redstone_chemical_elements:apatite/apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/deepslate_apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/nether_apatite",
+      "required": false
+    },
+    {
+      "id": "redstone_chemical_elements:apatite/end_apatite",
+      "required": false
+    }
+  ]
+}

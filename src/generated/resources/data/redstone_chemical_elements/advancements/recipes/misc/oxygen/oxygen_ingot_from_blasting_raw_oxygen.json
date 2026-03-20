@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_oxygen": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/oxygen"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:oxygen/oxygen_ingot_from_blasting_raw_oxygen"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_oxygen",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:oxygen/oxygen_ingot_from_blasting_raw_oxygen"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:bohrium/bohrium_ore",
+    "redstone_chemical_elements:bohrium/deepslate_bohrium_ore",
+    "redstone_chemical_elements:bohrium/nether_bohrium_ore",
+    "redstone_chemical_elements:bohrium/end_bohrium_ore"
+  ]
+}

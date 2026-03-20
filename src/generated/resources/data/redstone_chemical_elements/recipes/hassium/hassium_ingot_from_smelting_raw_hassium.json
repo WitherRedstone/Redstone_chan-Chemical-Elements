@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "tag": "forge:raw_materials/hassium"
+  },
+  "result": "redstone_chemical_elements:hassium/hassium_ingot"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_sodium": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_materials/sodium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "redstone_chemical_elements:sodium/sodium_ingot_from_blasting_raw_sodium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_sodium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "redstone_chemical_elements:sodium/sodium_ingot_from_blasting_raw_sodium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

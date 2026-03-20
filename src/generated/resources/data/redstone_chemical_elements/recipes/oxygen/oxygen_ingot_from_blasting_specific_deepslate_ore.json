@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "redstone_chemical_elements:oxygen/deepslate_oxygen_ore"
+  },
+  "result": "redstone_chemical_elements:oxygen/oxygen_ingot"
+}

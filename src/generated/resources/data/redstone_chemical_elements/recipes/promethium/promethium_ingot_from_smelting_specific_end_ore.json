@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "redstone_chemical_elements:promethium/end_promethium_ore"
+  },
+  "result": "redstone_chemical_elements:promethium/promethium_ingot"
+}

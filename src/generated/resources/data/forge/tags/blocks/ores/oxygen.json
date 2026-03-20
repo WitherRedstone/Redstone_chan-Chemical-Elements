@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:oxygen/oxygen_ore",
+    "redstone_chemical_elements:oxygen/deepslate_oxygen_ore",
+    "redstone_chemical_elements:oxygen/nether_oxygen_ore",
+    "redstone_chemical_elements:oxygen/end_oxygen_ore"
+  ]
+}

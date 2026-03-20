@@ -1,0 +1,8 @@
+{
+  "values": [
+    "redstone_chemical_elements:mysterium/mysterium_ore",
+    "redstone_chemical_elements:mysterium/deepslate_mysterium_ore",
+    "redstone_chemical_elements:mysterium/nether_mysterium_ore",
+    "redstone_chemical_elements:mysterium/end_mysterium_ore"
+  ]
+}

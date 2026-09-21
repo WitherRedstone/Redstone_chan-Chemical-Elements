@@ -1,8 +1,8 @@
 package com.chinaex123.redstone_chemical_elements.dataGen;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
-import com.chinaex123.redstone_chemical_elements.register.ElementBlock;
-import com.chinaex123.redstone_chemical_elements.register.ElementItem;
+import com.chinaex123.redstone_chemical_elements.init.RCEBlocks;
+import com.chinaex123.redstone_chemical_elements.init.RCEItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -28,7 +28,7 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> writer) {
         // 遍历所有元素，为每个元素生成配方
-        for (Object[] element : ElementBlock.ELEMENT_BLOCKS) {
+        for (Object[] element : RCEBlocks.ELEMENT_BLOCKS) {
             String elementName = ((String) element[0]).toLowerCase();
 
             // 修复2: 将writer作为RecipeOutput传递，而不是不存在的recipeOutput变量
@@ -41,15 +41,15 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
      */
     private void generateElementRecipes(String elementName, Consumer<FinishedRecipe> writer) {
         // 获取该元素的所有物品和方块
-        Item ingot = ElementItem.getIngot(elementName).get();
-        Item nugget = ElementItem.getNugget(elementName).get();
-        Item block = ElementBlock.getBlock(elementName).get().asItem();
-        Item rawBlock = ElementBlock.getRawBlock(elementName).get().asItem();
-        Item rawItem = ElementItem.getRaw(elementName).get();
-        Item ore = ElementBlock.getOre(elementName).get().asItem();
-        Item deepslateOre = ElementBlock.getDeepslateOre(elementName).get().asItem();
-        Item netherOre = ElementBlock.getNetherOre(elementName).get().asItem();
-        Item endOre = ElementBlock.getEndOre(elementName).get().asItem();
+        Item ingot = RCEItems.getIngot(elementName).get();
+        Item nugget = RCEItems.getNugget(elementName).get();
+        Item block = RCEBlocks.getBlock(elementName).get().asItem();
+        Item rawBlock = RCEBlocks.getRawBlock(elementName).get().asItem();
+        Item rawItem = RCEItems.getRaw(elementName).get();
+        Item ore = RCEBlocks.getOre(elementName).get().asItem();
+        Item deepslateOre = RCEBlocks.getDeepslateOre(elementName).get().asItem();
+        Item netherOre = RCEBlocks.getNetherOre(elementName).get().asItem();
+        Item endOre = RCEBlocks.getEndOre(elementName).get().asItem();
 
         // 具体的元素标签
         TagKey<Item> ingotTag = createCommonItemTag("ingots/" + elementName);
@@ -130,7 +130,7 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
      * 为具体矿石添加烧炼配方
      */
     private void addSpecificOreSmeltingRecipes(String elementName, Item ingot, Item ore, Item deepslateOre, Item netherOre, Item endOre, Consumer<FinishedRecipe> writer) {
-        Item block = ElementBlock.getBlock(elementName).get().asItem();
+        Item block = RCEBlocks.getBlock(elementName).get().asItem();
         // ========== 熔炉烧炼配方 ==========
         // 普通矿石熔炉烧炼
         SimpleCookingRecipeBuilder.smelting(
@@ -166,9 +166,9 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
 
         // 粗矿快熔炉烧炼
         SimpleCookingRecipeBuilder.smelting(
-                        Ingredient.of(ElementBlock.getRawBlock(elementName).get().asItem()),
+                        Ingredient.of(RCEBlocks.getRawBlock(elementName).get().asItem()),
                         RecipeCategory.MISC, block, 4.0f, 1800)
-                .unlockedBy("has_raw_" + elementName + "_block", has(ElementBlock.getRawBlock(elementName).get()))
+                .unlockedBy("has_raw_" + elementName + "_block", has(RCEBlocks.getRawBlock(elementName).get()))
                 .save(writer,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_block_from_smelting_raw_block_" + elementName);
 
@@ -208,9 +208,9 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
 
         // 粗矿快高炉烧炼
         SimpleCookingRecipeBuilder.blasting(
-                        Ingredient.of(ElementBlock.getRawBlock(elementName).get().asItem()),
+                        Ingredient.of(RCEBlocks.getRawBlock(elementName).get().asItem()),
                         RecipeCategory.MISC, block, 8.0f, 900)
-                .unlockedBy("has_raw_" + elementName + "_block", has(ElementBlock.getRawBlock(elementName).get()))
+                .unlockedBy("has_raw_" + elementName + "_block", has(RCEBlocks.getRawBlock(elementName).get()))
                 .save(writer,
                         RedstonechanChemicalElements.MOD_ID + ":" + elementName + "/" + elementName + "_block_from_blasting_raw_block_" + elementName);
     }

@@ -1,4 +1,4 @@
-package com.chinaex123.redstone_chemical_elements.register;
+package com.chinaex123.redstone_chemical_elements.init;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
 import net.minecraft.world.item.Item;
@@ -11,9 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ElementItem {
-    public static final DeferredRegister<Item> ITEMS_REGISTER =
-            DeferredRegister.create(ForgeRegistries.ITEMS, RedstonechanChemicalElements.MOD_ID);
+public class RCEItems {
+    public static final DeferredRegister<Item> ITEMS_REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, RedstonechanChemicalElements.MOD_ID);
 
     // 存储所有物品的映射
     public static final Map<String, RegistryObject<Item>> INGOTS = new HashMap<>();

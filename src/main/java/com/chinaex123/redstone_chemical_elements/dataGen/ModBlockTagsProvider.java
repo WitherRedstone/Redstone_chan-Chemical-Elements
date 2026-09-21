@@ -1,8 +1,8 @@
 package com.chinaex123.redstone_chemical_elements.dataGen;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
-import com.chinaex123.redstone_chemical_elements.register.ElementBlock;
-import com.chinaex123.redstone_chemical_elements.register.ElementItem;
+import com.chinaex123.redstone_chemical_elements.init.RCEBlocks;
+import com.chinaex123.redstone_chemical_elements.init.RCEItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -82,16 +82,16 @@ public class ModBlockTagsProvider {
             var diamondToolTag = tag(net.minecraft.tags.BlockTags.NEEDS_DIAMOND_TOOL);
 
             // 遍历所有元素
-            for (Object[] element : ElementBlock.ELEMENT_BLOCKS) {
+            for (Object[] element : RCEBlocks.ELEMENT_BLOCKS) {
                 String elementName = ((String) element[0]).toLowerCase();
 
                 // 获取当前元素的所有方块
-                Block block = ElementBlock.getBlock(elementName).get();
-                Block rawBlock = ElementBlock.getRawBlock(elementName).get();
-                Block ore = ElementBlock.getOre(elementName).get();
-                Block deepslateOre = ElementBlock.getDeepslateOre(elementName).get();
-                Block netherOre = ElementBlock.getNetherOre(elementName).get();
-                Block endOre = ElementBlock.getEndOre(elementName).get();
+                Block block = RCEBlocks.getBlock(elementName).get();
+                Block rawBlock = RCEBlocks.getRawBlock(elementName).get();
+                Block ore = RCEBlocks.getOre(elementName).get();
+                Block deepslateOre = RCEBlocks.getDeepslateOre(elementName).get();
+                Block netherOre = RCEBlocks.getNetherOre(elementName).get();
+                Block endOre = RCEBlocks.getEndOre(elementName).get();
 
                 // 所有方块都可被镐挖掘
                 pickaxeTag.add(block, rawBlock, ore, deepslateOre, netherOre, endOre);
@@ -160,7 +160,7 @@ public class ModBlockTagsProvider {
             }
 
             // 为 ELEMENT_ORES 数组的特殊矿石添加标签
-            for (Object[] oreElement : ElementBlock.ELEMENT_ORES) {
+            for (Object[] oreElement : RCEBlocks.ELEMENT_ORES) {
                 String oreName = ((String) oreElement[0]).toLowerCase();
 
                 // 普通矿石 - 名称就是 oreName 本身
@@ -209,100 +209,100 @@ public class ModBlockTagsProvider {
 
         @Override
         protected void addTags(HolderLookup.@NotNull Provider provider) {
-            for (Object[] element : ElementBlock.ELEMENT_BLOCKS) {
+            for (Object[] element : RCEBlocks.ELEMENT_BLOCKS) {
                 String elementName = ((String) element[0]).toLowerCase();
 
                 // 1. 物品通用标签
 
                 // 锭 -> forge:ingots/
                 tag(Tags.Items.INGOTS)
-                        .add(ElementItem.getIngot(elementName).get());
+                        .add(RCEItems.getIngot(elementName).get());
 
                 // 具体元素的锭标签 -> forge:ingots/iron
                 tag(createCommonItemTag("ingots/" + elementName))
-                        .add(ElementItem.getIngot(elementName).get());
+                        .add(RCEItems.getIngot(elementName).get());
 
                 // 粒 -> forge:nuggets/
                 tag(Tags.Items.NUGGETS)
-                        .add(ElementItem.getNugget(elementName).get());
+                        .add(RCEItems.getNugget(elementName).get());
 
                 // 具体元素的粒标签 -> forge:nuggets/iron
                 tag(createCommonItemTag("nuggets/" + elementName))
-                        .add(ElementItem.getNugget(elementName).get());
+                        .add(RCEItems.getNugget(elementName).get());
 
                 // 粉 -> forge:dusts/
                 tag(Tags.Items.DUSTS)
-                        .add(ElementItem.getDust(elementName).get());
+                        .add(RCEItems.getDust(elementName).get());
 
                 // 具体元素的粉标签 -> forge:dusts/iron
                 tag(createCommonItemTag("dusts/" + elementName))
-                        .add(ElementItem.getDust(elementName).get());
+                        .add(RCEItems.getDust(elementName).get());
 
                 // 线 -> forge:wires/
                 tag(WIRES)
-                        .add(ElementItem.getWire(elementName).get());
+                        .add(RCEItems.getWire(elementName).get());
 
                 // 具体元素的线标签 -> forge:wires/iron
                 tag(createCommonItemTag("wires/" + elementName))
-                        .add(ElementItem.getWire(elementName).get());
+                        .add(RCEItems.getWire(elementName).get());
 
                 // 齿轮 -> forge:gears/
                 tag(GEARS)
-                        .add(ElementItem.getGear(elementName).get());
+                        .add(RCEItems.getGear(elementName).get());
 
                 // 具体元素的齿轮标签 -> forge:gears/iron
                 tag(createCommonItemTag("gears/" + elementName))
-                        .add(ElementItem.getGear(elementName).get());
+                        .add(RCEItems.getGear(elementName).get());
 
                 // 棍 -> forge:rods/
                 tag(RODS)
-                        .add(ElementItem.getRod(elementName).get());
+                        .add(RCEItems.getRod(elementName).get());
 
                 // 具体元素的棍标签 -> forge:rods/iron
                 tag(createCommonItemTag("rods/" + elementName))
-                        .add(ElementItem.getRod(elementName).get());
+                        .add(RCEItems.getRod(elementName).get());
 
                 // 板 -> forge:plates/
                 tag(PLATES)
-                        .add(ElementItem.getPlate(elementName).get());
+                        .add(RCEItems.getPlate(elementName).get());
 
                 // 具体元素的板标签 -> forge:plates/iron
                 tag(createCommonItemTag("plates/" + elementName))
-                        .add(ElementItem.getPlate(elementName).get());
+                        .add(RCEItems.getPlate(elementName).get());
 
                 // 粗矿 -> forge:raw_materials/
                 tag(Tags.Items.RAW_MATERIALS)
-                        .add(ElementItem.getRaw(elementName).get());
+                        .add(RCEItems.getRaw(elementName).get());
 
                 // 具体元素的粗矿标签 -> forge:raw_materials/iron
                 tag(createCommonItemTag("raw_materials/" + elementName))
-                        .add(ElementItem.getRaw(elementName).get());
+                        .add(RCEItems.getRaw(elementName).get());
 
                 // 粉碎粗矿 -> forge:crushed_raw_materials/
                 tag(CRUSHED_RAW_MATERIALS)
-                        .add(ElementItem.getCrushedRaw(elementName).get());
+                        .add(RCEItems.getCrushedRaw(elementName).get());
 
                 // 具体元素的粉碎粗矿标签 -> forge:crushed_raw_materials/iron
                 tag(createCommonItemTag("crushed_raw_materials/" + elementName))
-                        .add(ElementItem.getCrushedRaw(elementName).get());
+                        .add(RCEItems.getCrushedRaw(elementName).get());
 
                 // 2. 存储块物品标签
 
                 // 通用存储块标签 - forge:storage_blocks
                 tag(STORAGE_BLOCKS_INGOTS)
-                        .add(ElementBlock.getBlock(elementName).get().asItem());
+                        .add(RCEBlocks.getBlock(elementName).get().asItem());
 
                 // 具体元素存储块标签 - forge:storage_blocks/iron
                 tag(createCommonItemTag("storage_blocks/" + elementName))
-                        .add(ElementBlock.getBlock(elementName).get().asItem());
+                        .add(RCEBlocks.getBlock(elementName).get().asItem());
 
                 // 粗矿存储块通用标签 - forge:storage_blocks/raw
                 tag(STORAGE_BLOCKS_RAW)
-                        .add(ElementBlock.getRawBlock(elementName).get().asItem());
+                        .add(RCEBlocks.getRawBlock(elementName).get().asItem());
 
                 // 具体元素粗矿存储块标签 - forge:storage_blocks/raw_iron
                 tag(createCommonItemTag("storage_blocks/raw_" + elementName))
-                        .add(ElementBlock.getRawBlock(elementName).get().asItem());
+                        .add(RCEBlocks.getRawBlock(elementName).get().asItem());
             }
         }
     }

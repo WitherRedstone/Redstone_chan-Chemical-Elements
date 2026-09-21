@@ -1,4 +1,4 @@
-package com.chinaex123.redstone_chemical_elements.register;
+package com.chinaex123.redstone_chemical_elements.init;
 
 import com.chinaex123.redstone_chemical_elements.RedstonechanChemicalElements;
 import net.minecraft.world.item.BlockItem;
@@ -16,12 +16,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-public class ElementBlock {
-    // 创建方块注册器实例
-    public static final DeferredRegister<Block> BLOCK_REGISTER =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, RedstonechanChemicalElements.MOD_ID);
+public class RCEBlocks {
+    public static final DeferredRegister<Block> BLOCK_REGISTER = DeferredRegister.create(ForgeRegistries.BLOCKS, RedstonechanChemicalElements.MOD_ID);
 
-    // 存储所有注册的方块
     public static final Map<String, RegistryObject<Block>> BLOCKS = new HashMap<>();
     private static final Map<String, RegistryObject<Block>> RAW_BLOCKS = new HashMap<>();
     private static final Map<String, RegistryObject<Block>> ORES = new HashMap<>();
@@ -300,7 +297,7 @@ public class ElementBlock {
     private static RegistryObject<Block> registerBlockItem(String name, Supplier<Block> blockSupplier) {
         RegistryObject<Block> block = BLOCK_REGISTER.register(name, blockSupplier);
         // 注册对应的方块物品
-        ElementItem.ITEMS_REGISTER.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        RCEItems.ITEMS_REGISTER.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
         return block;
     }
 

@@ -1,5 +1,6 @@
-该项目已改名为[Elementum Core](https://github.com/WitherRedstone/ElementumCore)
+** 该项目已改名为[Elementum Core](https://github.com/WitherRedstone/ElementumCore) **
 
+--------
 
 Added 118 chemical elements and their derivative items to the game.
 Items have no default acquisition methods and only basic crafting recipes are provided.
